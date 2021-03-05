@@ -1,0 +1,113 @@
+\hypertarget{class_paoo_game_1_1_states_1_1_save_state}{}\doxysection{Paoo\+Game.\+States.\+Save\+State Class Reference}
+\label{class_paoo_game_1_1_states_1_1_save_state}\index{PaooGame.States.SaveState@{PaooGame.States.SaveState}}
+
+
+Implementeaza notiunea de load pentru joc.  
+
+
+Inheritance diagram for Paoo\+Game.\+States.\+Save\+State\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_paoo_game_1_1_states_1_1_save_state}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_save_state_a098b5d0e8d1142363fb96659d3080740}\label{class_paoo_game_1_1_states_1_1_save_state_a098b5d0e8d1142363fb96659d3080740}} 
+\mbox{\hyperlink{class_paoo_game_1_1_states_1_1_save_state_a098b5d0e8d1142363fb96659d3080740}{Save\+State}} ()  throws File\+Not\+Found\+Exception 
+\begin{DoxyCompactList}\small\item\em Constructorul de initializare al clasei. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_save_state_a2de9970837b1d4dc863fc118809f0ac2}{Update}} ()  throws File\+Not\+Found\+Exception 
+\begin{DoxyCompactList}\small\item\em Actualizeaza starea setarilor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_save_state_aaf4ac5ae3d0ead5c4391749daf5b7394}{Draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Deseneaza (randeaza) pe ecran meniul de load. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_save_state_a696a270fd7df3dfcee4bf98dca28d781}\label{class_paoo_game_1_1_states_1_1_save_state_a696a270fd7df3dfcee4bf98dca28d781}} 
+int {\bfseries get\+Level} ()
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_save_state_ab417b4e3282327dcab17a849abccdd15}\label{class_paoo_game_1_1_states_1_1_save_state_ab417b4e3282327dcab17a849abccdd15}} 
+int {\bfseries get\+Score} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_save_state_a78f7fafa74fa2975cda3b94f933b6908}\label{class_paoo_game_1_1_states_1_1_save_state_a78f7fafa74fa2975cda3b94f933b6908}} 
+static void {\bfseries set\+Level} (int \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_save_state_a0505ea0b32e1485f514cd8c0520dc446}{level}})
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_save_state_a62752b0e8c861880cc82e859e6e48253}\label{class_paoo_game_1_1_states_1_1_save_state_a62752b0e8c861880cc82e859e6e48253}} 
+static void {\bfseries set\+Score} (int \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_save_state_a11b774e2b56c950c3094d444802301f6}{score}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_save_state_a9beeda5e926ce86446808de4f115f90a}\label{class_paoo_game_1_1_states_1_1_save_state_a9beeda5e926ce86446808de4f115f90a}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_save_state_a9beeda5e926ce86446808de4f115f90a}{button\+\_\+selected}}
+\begin{DoxyCompactList}\small\item\em atribut care arata butonul selectat \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_save_state_ad67da34f6cb3e6c2f9b76e4f50df2745}\label{class_paoo_game_1_1_states_1_1_save_state_ad67da34f6cb3e6c2f9b76e4f50df2745}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_save_state_ad67da34f6cb3e6c2f9b76e4f50df2745}{timer}}
+\begin{DoxyCompactList}\small\item\em atribut care e folosit pentru timerul modificarii butonului selectat \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_save_state_a9f33dfb6a8ab97531bb4b934d2cc863c}\label{class_paoo_game_1_1_states_1_1_save_state_a9f33dfb6a8ab97531bb4b934d2cc863c}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_save_state_a9f33dfb6a8ab97531bb4b934d2cc863c}{k}}
+\begin{DoxyCompactList}\small\item\em atribut folosit pentru transparenta scrisului \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_save_state_ab875f65d5eeeef06fd49d245fc672c00}\label{class_paoo_game_1_1_states_1_1_save_state_ab875f65d5eeeef06fd49d245fc672c00}} 
+\mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state}{Play\+State}} \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_save_state_ab875f65d5eeeef06fd49d245fc672c00}{play}}
+\begin{DoxyCompactList}\small\item\em referinta care playstate \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_save_state_a0505ea0b32e1485f514cd8c0520dc446}\label{class_paoo_game_1_1_states_1_1_save_state_a0505ea0b32e1485f514cd8c0520dc446}} 
+static int \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_save_state_a0505ea0b32e1485f514cd8c0520dc446}{level}} =1
+\begin{DoxyCompactList}\small\item\em atribut folosit pentru level \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_save_state_a11b774e2b56c950c3094d444802301f6}\label{class_paoo_game_1_1_states_1_1_save_state_a11b774e2b56c950c3094d444802301f6}} 
+static int \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_save_state_a11b774e2b56c950c3094d444802301f6}{score}} =0
+\begin{DoxyCompactList}\small\item\em atribut folosit pentru a stoca scorul \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Implementeaza notiunea de load pentru joc. 
+
+class \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_save_state}{Save\+State}} extends \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state}{State}} Aici setarile vor trebui salvate/incarcate intr-\/un/dintr-\/un fisier/baza de date sqlite. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_save_state_aaf4ac5ae3d0ead5c4391749daf5b7394}\label{class_paoo_game_1_1_states_1_1_save_state_aaf4ac5ae3d0ead5c4391749daf5b7394}} 
+\index{PaooGame.States.SaveState@{PaooGame.States.SaveState}!Draw@{Draw}}
+\index{Draw@{Draw}!PaooGame.States.SaveState@{PaooGame.States.SaveState}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+States.\+Save\+State.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Deseneaza (randeaza) pe ecran meniul de load. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic in care trebuie sa deseneze starea setarilor pe ecran. \\
+\hline
+\end{DoxyParams}
+desenare titlu meniu
+
+desenare butoane si scrisul de pe ele
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_a1b7ea671618e0aaaf398e5fada65ab57}{Paoo\+Game.\+States.\+State}}.
+
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_save_state_a2de9970837b1d4dc863fc118809f0ac2}\label{class_paoo_game_1_1_states_1_1_save_state_a2de9970837b1d4dc863fc118809f0ac2}} 
+\index{PaooGame.States.SaveState@{PaooGame.States.SaveState}!Update@{Update}}
+\index{Update@{Update}!PaooGame.States.SaveState@{PaooGame.States.SaveState}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+States.\+Save\+State.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws File\+Not\+Found\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Actualizeaza starea setarilor. 
+
+s-\/a selectat nivelul de incarcat , scorul este modificat si se face trecerea state-\/ului in starea play
+
+buton de back
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_a358ce2dea3b960c707b1a7ed837e2355}{Paoo\+Game.\+States.\+State}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+States/Save\+State.\+java\end{DoxyCompactItemize}

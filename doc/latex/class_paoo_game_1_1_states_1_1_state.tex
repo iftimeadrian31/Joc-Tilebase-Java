@@ -1,0 +1,99 @@
+\hypertarget{class_paoo_game_1_1_states_1_1_state}{}\doxysection{Paoo\+Game.\+States.\+State Class Reference}
+\label{class_paoo_game_1_1_states_1_1_state}\index{PaooGame.States.State@{PaooGame.States.State}}
+
+
+Implementeaza notiunea abstracta de stare a jocului/programului.  
+
+
+Inheritance diagram for Paoo\+Game.\+States.\+State\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.131313cm]{class_paoo_game_1_1_states_1_1_state}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_state_a358ce2dea3b960c707b1a7ed837e2355}\label{class_paoo_game_1_1_states_1_1_state_a358ce2dea3b960c707b1a7ed837e2355}} 
+abstract void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_a358ce2dea3b960c707b1a7ed837e2355}{Update}} ()  throws File\+Not\+Found\+Exception
+\begin{DoxyCompactList}\small\item\em Metoda abstracta destinata actualizarii starii curente. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_state_a1b7ea671618e0aaaf398e5fada65ab57}\label{class_paoo_game_1_1_states_1_1_state_a1b7ea671618e0aaaf398e5fada65ab57}} 
+abstract void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_a1b7ea671618e0aaaf398e5fada65ab57}{Draw}} (Graphics g)  throws File\+Not\+Found\+Exception
+\begin{DoxyCompactList}\small\item\em Metoda abstracta destinata desenarii starii curente. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_state_a7daafc3bea98e1882143ab02efa567ca}\label{class_paoo_game_1_1_states_1_1_state_a7daafc3bea98e1882143ab02efa567ca}} 
+\mbox{\hyperlink{class_paoo_game_1_1_game}{Game}} {\bfseries get\+Game} ()
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_state_afafa2a898063e6c6d6473feaf6b37e63}\label{class_paoo_game_1_1_states_1_1_state_afafa2a898063e6c6d6473feaf6b37e63}} 
+void {\bfseries set\+Game} (\mbox{\hyperlink{class_paoo_game_1_1_game}{Game}} game)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_ad9ace470d622d280867f8ee31cc327a6}{Set\+State}} (\mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state}{State}} state, \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state}{State}} \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_a0afbb0b5b198bc98da065faea2c65aad}{previous\+State}})
+\begin{DoxyCompactList}\small\item\em Seteaza starea curenta a jocului. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_state_ab9598d73c61f669fb92015cbe5224f5e}\label{class_paoo_game_1_1_states_1_1_state_ab9598d73c61f669fb92015cbe5224f5e}} 
+static \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state}{State}} {\bfseries Get\+State} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_state_a97faa504f19859700227fc555967ca88}\label{class_paoo_game_1_1_states_1_1_state_a97faa504f19859700227fc555967ca88}} 
+\mbox{\hyperlink{class_paoo_game_1_1_game}{Game}} {\bfseries game}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_state_a613d89e1ce98d2e6d70968828059c286}\label{class_paoo_game_1_1_states_1_1_state_a613d89e1ce98d2e6d70968828059c286}} 
+\mbox{\hyperlink{class_paoo_game_1_1_music_player}{Music\+Player}} {\bfseries soundtrack}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state}{State}} \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_a0afbb0b5b198bc98da065faea2c65aad}{previous\+State}} = null
+\begin{DoxyCompactList}\small\item\em Urmatoarele atribute sunt statice pentru a evita dealocarea spatiului de memorie la trecerea dintr-\/o stare in alta. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state}{State}} \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_ad1275c08fbd7ff0be027ff8ff51b416b}{current\+State}} = null
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementeaza notiunea abstracta de stare a jocului/programului. 
+
+abstract class \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state}{State}} Un joc odata ce este lansat in executie nu trebuie \char`\"{}sa arunce jucatorul direct in lupta\char`\"{}, este nevoie de un meniu care sa contine optiuni\+: New \mbox{\hyperlink{class_paoo_game_1_1_game}{Game}}, Load \mbox{\hyperlink{class_paoo_game_1_1_game}{Game}}, Settings, About etc. Toate aceste optiuni nu sunt altceva decat stari ale programului (jocului) ce trebuiesc incarcate si afisate functie de starea curenta. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_state_ad9ace470d622d280867f8ee31cc327a6}\label{class_paoo_game_1_1_states_1_1_state_ad9ace470d622d280867f8ee31cc327a6}} 
+\index{PaooGame.States.State@{PaooGame.States.State}!SetState@{SetState}}
+\index{SetState@{SetState}!PaooGame.States.State@{PaooGame.States.State}}
+\doxysubsubsection{\texorpdfstring{SetState()}{SetState()}}
+{\footnotesize\ttfamily public static void Paoo\+Game.\+States.\+State.\+Set\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state}{State}}}]{state,  }\item[{\mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state}{State}}}]{previous\+State }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Seteaza starea curenta a jocului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em state} & Noua stare a programului (jocului). \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_state_ad1275c08fbd7ff0be027ff8ff51b416b}\label{class_paoo_game_1_1_states_1_1_state_ad1275c08fbd7ff0be027ff8ff51b416b}} 
+\index{PaooGame.States.State@{PaooGame.States.State}!currentState@{currentState}}
+\index{currentState@{currentState}!PaooGame.States.State@{PaooGame.States.State}}
+\doxysubsubsection{\texorpdfstring{currentState}{currentState}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state}{State}} Paoo\+Game.\+States.\+State.\+current\+State = null\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+Referinta catre starea curenta a jocului\+: game, meniu, settings, about etc. \mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_state_a0afbb0b5b198bc98da065faea2c65aad}\label{class_paoo_game_1_1_states_1_1_state_a0afbb0b5b198bc98da065faea2c65aad}} 
+\index{PaooGame.States.State@{PaooGame.States.State}!previousState@{previousState}}
+\index{previousState@{previousState}!PaooGame.States.State@{PaooGame.States.State}}
+\doxysubsubsection{\texorpdfstring{previousState}{previousState}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state}{State}} Paoo\+Game.\+States.\+State.\+previous\+State = null\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+
+
+Urmatoarele atribute sunt statice pentru a evita dealocarea spatiului de memorie la trecerea dintr-\/o stare in alta. 
+
+Referinta catre starea anterioara a jocului. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+States/State.\+java\end{DoxyCompactItemize}

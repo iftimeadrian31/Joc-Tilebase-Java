@@ -1,0 +1,285 @@
+\hypertarget{class_paoo_game_1_1_game}{}\doxysection{Paoo\+Game.\+Game Class Reference}
+\label{class_paoo_game_1_1_game}\index{PaooGame.Game@{PaooGame.Game}}
+
+
+Clasa principala a intregului proiect. Implementeaza \mbox{\hyperlink{class_paoo_game_1_1_game}{Game}} -\/ Loop (Update -\/$>$ Draw)  
+
+
+Inheritance diagram for Paoo\+Game.\+Game\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_paoo_game_1_1_game}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_game_a9ad6403ed3c853e7edf8c7de62d623e9}{run}} ()
+\begin{DoxyCompactList}\small\item\em Functia ce va rula in thread-\/ul creat. \end{DoxyCompactList}\item 
+synchronized void \mbox{\hyperlink{class_paoo_game_1_1_game_abf9ea1842856913d3ced40a1943fc5ff}{Start\+Game}} ()  throws File\+Not\+Found\+Exception 
+\item 
+synchronized void \mbox{\hyperlink{class_paoo_game_1_1_game_a3697dc249cd795b7aff9f1d48708be69}{Stop\+Game}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_game_a373efbcd2cd427f62bd2aded960068f5}\label{class_paoo_game_1_1_game_a373efbcd2cd427f62bd2aded960068f5}} 
+static \mbox{\hyperlink{class_paoo_game_1_1_game}{Game}} {\bfseries Get\+Instance} (String title, int width, int height)  throws File\+Not\+Found\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_game_a1f27e91a21b68b115155d6ccb2949225}{Game}} (String title, int width, int height)  throws File\+Not\+Found\+Exception 
+\begin{DoxyCompactList}\small\item\em Constructor de initializare al clasei \mbox{\hyperlink{class_paoo_game_1_1_game}{Game}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_game_a161d29269782d3a5f4205e86f982b266}{Init\+Game}} ()  throws I\+O\+Exception, Font\+Format\+Exception 
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_game_a6d2c1f5dce94db1abce6027320038266}{Update}} ()  throws File\+Not\+Found\+Exception 
+\begin{DoxyCompactList}\small\item\em Actualizeaza starea elementelor din joc. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_game_a4fb2e76a1fec4e8823460fe57f3070fa}{Draw}} ()  throws File\+Not\+Found\+Exception 
+\begin{DoxyCompactList}\small\item\em Deseneaza elementele grafice in fereastra coresponzator starilor actualizate ale elementelor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_game_a01d9e6f9ac695166764afbda537fa4b3}\label{class_paoo_game_1_1_game_a01d9e6f9ac695166764afbda537fa4b3}} 
+boolean {\bfseries Map\+Start} =false
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_game_window_1_1_game_window}{Game\+Window}} \mbox{\hyperlink{class_paoo_game_1_1_game_a363378aa15cde3220c190a8344e31e5c}{wnd}}
+\item 
+boolean \mbox{\hyperlink{class_paoo_game_1_1_game_a744d1fb2daab5d1cf1c29c15372d2623}{run\+State}}
+\item 
+Thread \mbox{\hyperlink{class_paoo_game_1_1_game_ad0baabbe274109d211b92a1064210a2b}{game\+Thread}}
+\item 
+Buffer\+Strategy \mbox{\hyperlink{class_paoo_game_1_1_game_aba5a2b2d13a01de0b8a1e46dc52bc0a0}{bs}}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_game_a6396a4d048096454e3aeee2278a61e1f}\label{class_paoo_game_1_1_game_a6396a4d048096454e3aeee2278a61e1f}} 
+int {\bfseries k} =0
+\item 
+Graphics \mbox{\hyperlink{class_paoo_game_1_1_game_a46204d80fccf04e21f9e9f3edf963bcb}{g}}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_game_a9df9e8c9d161413b6b6952049e9c9db3}{tile}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_game_a2d0d159aa5e04f45acf2d47b39a62b74}\label{class_paoo_game_1_1_game_a2d0d159aa5e04f45acf2d47b39a62b74}} 
+static \mbox{\hyperlink{class_paoo_game_1_1_map}{Map}} {\bfseries map}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_game_a3f22a6a1b9d8929d5e171d650f842269}\label{class_paoo_game_1_1_game_a3f22a6a1b9d8929d5e171d650f842269}} 
+static \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state}{State}} {\bfseries state}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_game_a21d254754853fc985ecf56a40c42c74d}\label{class_paoo_game_1_1_game_a21d254754853fc985ecf56a40c42c74d}} 
+static volatile \mbox{\hyperlink{class_paoo_game_1_1_game}{Game}} {\bfseries instance}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clasa principala a intregului proiect. Implementeaza \mbox{\hyperlink{class_paoo_game_1_1_game}{Game}} -\/ Loop (Update -\/$>$ Draw) 
+
+\DoxyHorRuler{0}
+ $\vert$ $\vert$ $\vert$ -\/-\/-\/-\/-\/-\/-\/-\/-\/--- 60 times/s $\vert$ $\vert$ Update $\vert$ -\/-\/$>$\{ actualizeaza variabile, stari, pozitii ale elementelor grafice etc. = $\vert$ -\/-\/-\/-\/-\/-\/-\/-\/-\/--- 16.\+7 ms $\vert$ $\vert$ $\vert$ -\/-\/-\/-\/-\/-\/-\/-\/-\/--- $\vert$ $\vert$ Draw $\vert$ -\/-\/$>$\{ deseneaza totul pe ecran $\vert$ -\/-\/-\/-\/-\/-\/-\/-\/-\/--- \hypertarget{class_paoo_game_1_1_game_autotoc_md1}{}\doxysubsubsection{$\vert$           $\vert$}\label{class_paoo_game_1_1_game_autotoc_md1}
+Implementeaza interfata Runnable\+: \begin{DoxyVerb}public interface Runnable {
+    public void run();
+}
+\end{DoxyVerb}
+
+
+Interfata este utilizata pentru a crea un nou fir de executie avand ca argument clasa \mbox{\hyperlink{class_paoo_game_1_1_game}{Game}}. Clasa \mbox{\hyperlink{class_paoo_game_1_1_game}{Game}} trebuie sa aiba definita metoda \char`\"{}public void run()\char`\"{}, metoda ce va fi apelata in noul thread(fir de executie). Mai multe explicatii veti primi la curs.
+
+In mod obisnuit aceasta clasa trebuie sa contina urmatoarele\+:
+\begin{DoxyItemize}
+\item public \mbox{\hyperlink{class_paoo_game_1_1_game_a1f27e91a21b68b115155d6ccb2949225}{Game()}}; //constructor
+\item private void init(); //metoda privata de initializare
+\item private void update(); //metoda privata de actualizare a elementelor jocului
+\item private void draw(); //metoda privata de desenare a tablei de joc
+\item public \mbox{\hyperlink{class_paoo_game_1_1_game_a9ad6403ed3c853e7edf8c7de62d623e9}{run()}}; //metoda publica ce va fi apelata de noul fir de executie
+\item public synchronized void start(); //metoda publica de pornire a jocului
+\item public synchronized void stop() //metoda publica de oprire a jocului 
+\end{DoxyItemize}
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_game_a1f27e91a21b68b115155d6ccb2949225}\label{class_paoo_game_1_1_game_a1f27e91a21b68b115155d6ccb2949225}} 
+\index{PaooGame.Game@{PaooGame.Game}!Game@{Game}}
+\index{Game@{Game}!PaooGame.Game@{PaooGame.Game}}
+\doxysubsubsection{\texorpdfstring{Game()}{Game()}}
+{\footnotesize\ttfamily public Paoo\+Game.\+Game.\+Game (\begin{DoxyParamCaption}\item[{String}]{title,  }\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption}) throws File\+Not\+Found\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Constructor de initializare al clasei \mbox{\hyperlink{class_paoo_game_1_1_game}{Game}}. 
+
+Acest constructor primeste ca parametri titlul ferestrei, latimea si inaltimea acesteia avand in vedere ca fereastra va fi construita/creata in cadrul clasei \mbox{\hyperlink{class_paoo_game_1_1_game}{Game}}. Cum clasa \mbox{\hyperlink{class_paoo_game_1_1_game}{Game}} este de tipul Singleton , constructorul esteprivat
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & Titlul ferestrei. \\
+\hline
+{\em width} & Latimea ferestrei in pixeli. \\
+\hline
+{\em height} & Inaltimea ferestrei in pixeli. \\
+\hline
+\end{DoxyParams}
+Obiectul Game\+Window este creat insa fereastra nu este construita Acest lucru va fi realizat in metoda init() prin apelul functiei Build\+Game\+Window();
+
+Resetarea flagului run\+State ce indica starea firului de executie (started/stoped)
+
+se initializeaza statemachine-\/ul cu menu\+State
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_game_a4fb2e76a1fec4e8823460fe57f3070fa}\label{class_paoo_game_1_1_game_a4fb2e76a1fec4e8823460fe57f3070fa}} 
+\index{PaooGame.Game@{PaooGame.Game}!Draw@{Draw}}
+\index{Draw@{Draw}!PaooGame.Game@{PaooGame.Game}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily private void Paoo\+Game.\+Game.\+Draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws File\+Not\+Found\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Deseneaza elementele grafice in fereastra coresponzator starilor actualizate ale elementelor. 
+
+Metoda este declarata privat deoarece trebuie apelata doar in metoda \mbox{\hyperlink{class_paoo_game_1_1_game_a9ad6403ed3c853e7edf8c7de62d623e9}{run()}} Returnez buffer\+Strategy pentru canvasul existent
+
+Verific daca buffer strategy a fost construit sau nu
+
+Se executa doar la primul apel al metodei \mbox{\hyperlink{class_paoo_game_1_1_game_a4fb2e76a1fec4e8823460fe57f3070fa}{Draw()}}
+
+Se construieste tripul buffer
+
+Afisez informatii despre problema aparuta pentru depanare.
+
+Se obtine contextul grafic curent in care se poate desena.
+
+operatie de desenare
+
+se apeleaza functia draw din starea curenta
+
+Se afiseaza pe ecran
+
+Elibereaza resursele de memorie aferente contextului grafic curent (zonele de memorie ocupate de elementele grafice ce au fost desenate pe canvas).\mbox{\Hypertarget{class_paoo_game_1_1_game_a161d29269782d3a5f4205e86f982b266}\label{class_paoo_game_1_1_game_a161d29269782d3a5f4205e86f982b266}} 
+\index{PaooGame.Game@{PaooGame.Game}!InitGame@{InitGame}}
+\index{InitGame@{InitGame}!PaooGame.Game@{PaooGame.Game}}
+\doxysubsubsection{\texorpdfstring{InitGame()}{InitGame()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+Game.\+Init\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws I\+O\+Exception, Font\+Format\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Este construita fereastra grafica.
+
+Se incarca toate elementele grafice (dale)\mbox{\Hypertarget{class_paoo_game_1_1_game_a9ad6403ed3c853e7edf8c7de62d623e9}\label{class_paoo_game_1_1_game_a9ad6403ed3c853e7edf8c7de62d623e9}} 
+\index{PaooGame.Game@{PaooGame.Game}!run@{run}}
+\index{run@{run}!PaooGame.Game@{PaooGame.Game}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Game.\+run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Functia ce va rula in thread-\/ul creat. 
+
+Aceasta functie va actualiza starea jocului si va redesena tabla de joc (va actualiza fereastra grafica) Initializeaza obiectul game
+
+$<$ Retine timpul in nanosecunde aferent frame-\/ului anterior.
+
+$<$ Retine timpul curent de executie.
+
+Apelul functiilor \mbox{\hyperlink{class_paoo_game_1_1_game_a6d2c1f5dce94db1abce6027320038266}{Update()}} \& \mbox{\hyperlink{class_paoo_game_1_1_game_a4fb2e76a1fec4e8823460fe57f3070fa}{Draw()}} trebuie realizat la fiecare 16.\+7 ms sau mai bine spus de 60 ori pe secunda.
+
+$<$ Constanta intreaga initializata cu numarul de frame-\/uri pe secunda.
+
+$<$ Durata unui frame in nanosecunde.
+
+Atat timp timp cat threadul este pornit \mbox{\hyperlink{class_paoo_game_1_1_game_a6d2c1f5dce94db1abce6027320038266}{Update()}} \& \mbox{\hyperlink{class_paoo_game_1_1_game_a4fb2e76a1fec4e8823460fe57f3070fa}{Draw()}}
+
+Se obtine timpul curent
+
+Daca diferenta de timp dintre curent\+Time si old\+Time mai mare decat 16.\+6 ms
+
+Actualizeaza pozitiile elementelor
+
+Deseneaza elementele grafica in fereastra.\mbox{\Hypertarget{class_paoo_game_1_1_game_abf9ea1842856913d3ced40a1943fc5ff}\label{class_paoo_game_1_1_game_abf9ea1842856913d3ced40a1943fc5ff}} 
+\index{PaooGame.Game@{PaooGame.Game}!StartGame@{StartGame}}
+\index{StartGame@{StartGame}!PaooGame.Game@{PaooGame.Game}}
+\doxysubsubsection{\texorpdfstring{StartGame()}{StartGame()}}
+{\footnotesize\ttfamily synchronized void Paoo\+Game.\+Game.\+Start\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws File\+Not\+Found\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Se actualizeaza flagul de stare a threadului
+
+Se construieste threadul avand ca parametru obiectul \mbox{\hyperlink{class_paoo_game_1_1_game}{Game}}. De retinut faptul ca \mbox{\hyperlink{class_paoo_game_1_1_game}{Game}} class implementeaza interfata Runnable. Threadul creat va executa functia \mbox{\hyperlink{class_paoo_game_1_1_game_a9ad6403ed3c853e7edf8c7de62d623e9}{run()}} suprascrisa in clasa \mbox{\hyperlink{class_paoo_game_1_1_game}{Game}}.
+
+Threadul creat este lansat in executie (va executa metoda \mbox{\hyperlink{class_paoo_game_1_1_game_a9ad6403ed3c853e7edf8c7de62d623e9}{run()}})
+
+Thread-\/ul este creat si pornit deja\mbox{\Hypertarget{class_paoo_game_1_1_game_a3697dc249cd795b7aff9f1d48708be69}\label{class_paoo_game_1_1_game_a3697dc249cd795b7aff9f1d48708be69}} 
+\index{PaooGame.Game@{PaooGame.Game}!StopGame@{StopGame}}
+\index{StopGame@{StopGame}!PaooGame.Game@{PaooGame.Game}}
+\doxysubsubsection{\texorpdfstring{StopGame()}{StopGame()}}
+{\footnotesize\ttfamily synchronized void Paoo\+Game.\+Game.\+Stop\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Actualizare stare thread
+
+Metoda join() arunca exceptii motiv pentru care trebuie incadrata intr-\/un block try -\/ catch.
+
+Metoda join() pune un thread in asteptare panca cand un altul isi termina executie. Totusi, in situatia de fata efectul apelului este de oprire a threadului.
+
+In situatia in care apare o exceptie pe ecran vor fi afisate informatii utile pentru depanare.
+
+Thread-\/ul este oprit deja.\mbox{\Hypertarget{class_paoo_game_1_1_game_a6d2c1f5dce94db1abce6027320038266}\label{class_paoo_game_1_1_game_a6d2c1f5dce94db1abce6027320038266}} 
+\index{PaooGame.Game@{PaooGame.Game}!Update@{Update}}
+\index{Update@{Update}!PaooGame.Game@{PaooGame.Game}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily private void Paoo\+Game.\+Game.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws File\+Not\+Found\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Actualizeaza starea elementelor din joc. 
+
+Metoda este declarata privat deoarece trebuie apelata doar in metoda \mbox{\hyperlink{class_paoo_game_1_1_game_a9ad6403ed3c853e7edf8c7de62d623e9}{run()}} 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_game_aba5a2b2d13a01de0b8a1e46dc52bc0a0}\label{class_paoo_game_1_1_game_aba5a2b2d13a01de0b8a1e46dc52bc0a0}} 
+\index{PaooGame.Game@{PaooGame.Game}!bs@{bs}}
+\index{bs@{bs}!PaooGame.Game@{PaooGame.Game}}
+\doxysubsubsection{\texorpdfstring{bs}{bs}}
+{\footnotesize\ttfamily Buffer\+Strategy Paoo\+Game.\+Game.\+bs\hspace{0.3cm}{\ttfamily [private]}}
+
+Referinta catre un mecanism cu care se organizeaza memoria complexa pentru un canvas. \mbox{\Hypertarget{class_paoo_game_1_1_game_a46204d80fccf04e21f9e9f3edf963bcb}\label{class_paoo_game_1_1_game_a46204d80fccf04e21f9e9f3edf963bcb}} 
+\index{PaooGame.Game@{PaooGame.Game}!g@{g}}
+\index{g@{g}!PaooGame.Game@{PaooGame.Game}}
+\doxysubsubsection{\texorpdfstring{g}{g}}
+{\footnotesize\ttfamily Graphics Paoo\+Game.\+Game.\+g\hspace{0.3cm}{\ttfamily [private]}}
+
+Sunt cateva tipuri de \char`\"{}complex buffer strategies\char`\"{}, scopul fiind acela de a elimina fenomenul de flickering (palpaire) a ferestrei. Modul in care va fi implementata aceasta strategie in cadrul proiectului curent va fi triplu buffer-\/at $\vert$-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/---$>$$\vert$ $\vert$ $\vert$
+
+\DoxyHorRuler{0}
+
+\begin{DoxyItemize}
+\item $\ast$ Show $\ast$ $\ast$ $\ast$ $\ast$ \mbox{[} Ecran \mbox{]} $<$-\/--- $\ast$ Front Buffer $\ast$ $<$-\/-\/-\/--- $\ast$ Middle Buffer $\ast$ $<$-\/-\/--- $\ast$ Back Buffer $\ast$ $<$-\/--- \mbox{\hyperlink{class_paoo_game_1_1_game_a4fb2e76a1fec4e8823460fe57f3070fa}{Draw()}}
+\end{DoxyItemize}
+
+\DoxyHorRuler{0}
+
+
+\DoxyHorRuler{0}
+ Referinta catre un context grafic. \mbox{\Hypertarget{class_paoo_game_1_1_game_ad0baabbe274109d211b92a1064210a2b}\label{class_paoo_game_1_1_game_ad0baabbe274109d211b92a1064210a2b}} 
+\index{PaooGame.Game@{PaooGame.Game}!gameThread@{gameThread}}
+\index{gameThread@{gameThread}!PaooGame.Game@{PaooGame.Game}}
+\doxysubsubsection{\texorpdfstring{gameThread}{gameThread}}
+{\footnotesize\ttfamily Thread Paoo\+Game.\+Game.\+game\+Thread\hspace{0.3cm}{\ttfamily [private]}}
+
+Referinta catre thread-\/ul de update si draw al ferestrei \mbox{\Hypertarget{class_paoo_game_1_1_game_a744d1fb2daab5d1cf1c29c15372d2623}\label{class_paoo_game_1_1_game_a744d1fb2daab5d1cf1c29c15372d2623}} 
+\index{PaooGame.Game@{PaooGame.Game}!runState@{runState}}
+\index{runState@{runState}!PaooGame.Game@{PaooGame.Game}}
+\doxysubsubsection{\texorpdfstring{runState}{runState}}
+{\footnotesize\ttfamily boolean Paoo\+Game.\+Game.\+run\+State\hspace{0.3cm}{\ttfamily [private]}}
+
+Flag ce starea firului de executie. \mbox{\Hypertarget{class_paoo_game_1_1_game_a9df9e8c9d161413b6b6952049e9c9db3}\label{class_paoo_game_1_1_game_a9df9e8c9d161413b6b6952049e9c9db3}} 
+\index{PaooGame.Game@{PaooGame.Game}!tile@{tile}}
+\index{tile@{tile}!PaooGame.Game@{PaooGame.Game}}
+\doxysubsubsection{\texorpdfstring{tile}{tile}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Game.\+tile\hspace{0.3cm}{\ttfamily [private]}}
+
+variabila membra temporara. Este folosita in aceasta etapa doar pentru a desena ceva pe ecran. \mbox{\Hypertarget{class_paoo_game_1_1_game_a363378aa15cde3220c190a8344e31e5c}\label{class_paoo_game_1_1_game_a363378aa15cde3220c190a8344e31e5c}} 
+\index{PaooGame.Game@{PaooGame.Game}!wnd@{wnd}}
+\index{wnd@{wnd}!PaooGame.Game@{PaooGame.Game}}
+\doxysubsubsection{\texorpdfstring{wnd}{wnd}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_game_window_1_1_game_window}{Game\+Window}} Paoo\+Game.\+Game.\+wnd\hspace{0.3cm}{\ttfamily [private]}}
+
+Fereastra in care se va desena tabla jocului 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/Game.\+java\end{DoxyCompactItemize}

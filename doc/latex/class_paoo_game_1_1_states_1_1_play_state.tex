@@ -1,0 +1,165 @@
+\hypertarget{class_paoo_game_1_1_states_1_1_play_state}{}\doxysection{Paoo\+Game.\+States.\+Play\+State Class Reference}
+\label{class_paoo_game_1_1_states_1_1_play_state}\index{PaooGame.States.PlayState@{PaooGame.States.PlayState}}
+
+
+Implementeaza/controleaza jocul.  
+
+
+Inheritance diagram for Paoo\+Game.\+States.\+Play\+State\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_paoo_game_1_1_states_1_1_play_state}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_aedb75c94660f722e98eb90ccbc7a7ada}\label{class_paoo_game_1_1_states_1_1_play_state_aedb75c94660f722e98eb90ccbc7a7ada}} 
+\mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_aedb75c94660f722e98eb90ccbc7a7ada}{Play\+State}} ()  throws File\+Not\+Found\+Exception 
+\begin{DoxyCompactList}\small\item\em Constructorul de initializare al clasei. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_afbadaeed50e30afa4f59dcf10c06e64f}\label{class_paoo_game_1_1_states_1_1_play_state_afbadaeed50e30afa4f59dcf10c06e64f}} 
+void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_afbadaeed50e30afa4f59dcf10c06e64f}{Load}} (int \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_a5d1a5fb47aa028f5e61841702451acfb}{level}}, int score)
+\begin{DoxyCompactList}\small\item\em functie care seteaza levelul si scorul incarcat \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_a3513e0df6e2261fe01b6272f7eb5a2b4}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizeaza starea curenta a jocului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_aed83eb541b8b4b3eeaeae34f97ae82fe}{Draw}} (Graphics g)  throws File\+Not\+Found\+Exception 
+\begin{DoxyCompactList}\small\item\em Deseneaza (randeaza) pe ecran starea curenta a jocului cand ruleaza. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_a6b819eab5eae4059621c2974ddb776b9}\label{class_paoo_game_1_1_states_1_1_play_state_a6b819eab5eae4059621c2974ddb776b9}} 
+void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_a6b819eab5eae4059621c2974ddb776b9}{set\+Map}} (\mbox{\hyperlink{class_paoo_game_1_1_map}{Map}} \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_afde6f8585c7ec947c4f6689630bbfd54}{map}})
+\begin{DoxyCompactList}\small\item\em functie care modifica harta curenta \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_a656a3ed0aa7d048c0fec0d08bb1b3b3c}\label{class_paoo_game_1_1_states_1_1_play_state_a656a3ed0aa7d048c0fec0d08bb1b3b3c}} 
+static \mbox{\hyperlink{class_paoo_game_1_1_map}{Map}} \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_a656a3ed0aa7d048c0fec0d08bb1b3b3c}{get\+Map}} ()
+\begin{DoxyCompactList}\small\item\em functie care obtine harta curenta \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_a132cfccb2cf3fd1f458f58270f311f4b}\label{class_paoo_game_1_1_states_1_1_play_state_a132cfccb2cf3fd1f458f58270f311f4b}} 
+static int \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_a132cfccb2cf3fd1f458f58270f311f4b}{get\+Total\+\_\+\+Score}} ()
+\begin{DoxyCompactList}\small\item\em functie care obtine scorul curent \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_adb12dd4f956aeeec41eaa09fb806682e}\label{class_paoo_game_1_1_states_1_1_play_state_adb12dd4f956aeeec41eaa09fb806682e}} 
+static void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_adb12dd4f956aeeec41eaa09fb806682e}{set\+Total\+\_\+\+Score}} (int \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_a7ec279ddda6d2e96b080a7cfecf03137}{total\+\_\+score}})
+\begin{DoxyCompactList}\small\item\em functie care modifica scorul total \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_a5e66de590611a9c6d332e5a1fd8fa255}\label{class_paoo_game_1_1_states_1_1_play_state_a5e66de590611a9c6d332e5a1fd8fa255}} 
+static int \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_a5e66de590611a9c6d332e5a1fd8fa255}{get\+Level}} ()
+\begin{DoxyCompactList}\small\item\em functie care obtine level-\/ul \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_af1686a90d911f16b15d01abb34778c39}\label{class_paoo_game_1_1_states_1_1_play_state_af1686a90d911f16b15d01abb34778c39}} 
+static void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_af1686a90d911f16b15d01abb34778c39}{set\+Level}} (int \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_a5d1a5fb47aa028f5e61841702451acfb}{level}})
+\begin{DoxyCompactList}\small\item\em functie care modifica level-\/ul \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_af4342667311dd03e3d282f553651c091}\label{class_paoo_game_1_1_states_1_1_play_state_af4342667311dd03e3d282f553651c091}} 
+static void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_af4342667311dd03e3d282f553651c091}{set\+Next}} (Boolean \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_a261fa88b484889156d551bde1c657292}{next}})
+\begin{DoxyCompactList}\small\item\em functie care modifica atributul next \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_acb749472bf89963455e07692e864287a}\label{class_paoo_game_1_1_states_1_1_play_state_acb749472bf89963455e07692e864287a}} 
+static \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_player}{Player}} \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_acb749472bf89963455e07692e864287a}{get\+Player}} ()
+\begin{DoxyCompactList}\small\item\em functie care obtine referinta spre player \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_a0909a94fb6e9ec392e8838d3979b807b}\label{class_paoo_game_1_1_states_1_1_play_state_a0909a94fb6e9ec392e8838d3979b807b}} 
+static void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_a0909a94fb6e9ec392e8838d3979b807b}{set\+Player}} (\mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_player}{Player}} \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_a20d394fec88d735797765cc0b78ddd1e}{player}})
+\begin{DoxyCompactList}\small\item\em functie care aduce referinta la playyer \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_a6de1160eeb1f9a33059b231288a1e295}\label{class_paoo_game_1_1_states_1_1_play_state_a6de1160eeb1f9a33059b231288a1e295}} 
+boolean \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_a6de1160eeb1f9a33059b231288a1e295}{Map\+Start}}
+\begin{DoxyCompactList}\small\item\em atribut care dicteaza obtinerea hartii \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_a60933bb8eb6fa05ee93c23698862ebce}\label{class_paoo_game_1_1_states_1_1_play_state_a60933bb8eb6fa05ee93c23698862ebce}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_a60933bb8eb6fa05ee93c23698862ebce}{k}}
+\begin{DoxyCompactList}\small\item\em atribut pentru transparenta scrisului \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_a5d1a5fb47aa028f5e61841702451acfb}\label{class_paoo_game_1_1_states_1_1_play_state_a5d1a5fb47aa028f5e61841702451acfb}} 
+static int \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_a5d1a5fb47aa028f5e61841702451acfb}{level}}
+\begin{DoxyCompactList}\small\item\em atribut care spune levelul curent \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_player}{Player}} \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_a20d394fec88d735797765cc0b78ddd1e}{player}}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_afde6f8585c7ec947c4f6689630bbfd54}\label{class_paoo_game_1_1_states_1_1_play_state_afde6f8585c7ec947c4f6689630bbfd54}} 
+static \mbox{\hyperlink{class_paoo_game_1_1_map}{Map}} \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_afde6f8585c7ec947c4f6689630bbfd54}{map}}
+\begin{DoxyCompactList}\small\item\em referinta care harta \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_a261fa88b484889156d551bde1c657292}\label{class_paoo_game_1_1_states_1_1_play_state_a261fa88b484889156d551bde1c657292}} 
+static Boolean \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_a261fa88b484889156d551bde1c657292}{next}} = true
+\begin{DoxyCompactList}\small\item\em atribut folosit pentru trecerea de la un level la altul \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_a7ec279ddda6d2e96b080a7cfecf03137}\label{class_paoo_game_1_1_states_1_1_play_state_a7ec279ddda6d2e96b080a7cfecf03137}} 
+static int \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_a7ec279ddda6d2e96b080a7cfecf03137}{total\+\_\+score}}
+\begin{DoxyCompactList}\small\item\em atribut care stocheaza scorul din prezent \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_af6c6be4b75e070cec84035dd62eb16ac}\label{class_paoo_game_1_1_states_1_1_play_state_af6c6be4b75e070cec84035dd62eb16ac}} 
+static int \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_af6c6be4b75e070cec84035dd62eb16ac}{last\+\_\+score}}
+\begin{DoxyCompactList}\small\item\em atribut care stocheaza scorul de la inceputul levelului \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Implementeaza/controleaza jocul. 
+
+class \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state}{Play\+State}} extends \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state}{State}} 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_aed83eb541b8b4b3eeaeae34f97ae82fe}\label{class_paoo_game_1_1_states_1_1_play_state_aed83eb541b8b4b3eeaeae34f97ae82fe}} 
+\index{PaooGame.States.PlayState@{PaooGame.States.PlayState}!Draw@{Draw}}
+\index{Draw@{Draw}!PaooGame.States.PlayState@{PaooGame.States.PlayState}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+States.\+Play\+State.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption}) throws File\+Not\+Found\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Deseneaza (randeaza) pe ecran starea curenta a jocului cand ruleaza. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic in care trebuie sa deseneze starea jocului pe ecran. \\
+\hline
+\end{DoxyParams}
+se deseneaza nivelul 1
+
+atunci cand se trece la acest nivel , va aparea acest mesaj
+
+se deseneaza nivelul 2
+
+atunci cand se trece la acest nivel , va aparea acest mesaj
+
+se deseneaza nivelul 3
+
+atunci cand se trece la acest nivel , va aparea acest mesaj
+
+se deseneaza nivelul 4
+
+atunci cand se trece la acest nivel , va aparea acest mesaj
+
+se deseneaza nivelul 5
+
+atunci cand se trece la acest nivel , va aparea acest mesaj
+
+se deseneaza ecranul de finish
+
+daca playerul a murit , va aparea pe ecran mesajul si se face trecerea din playstate in menustate
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_a1b7ea671618e0aaaf398e5fada65ab57}{Paoo\+Game.\+States.\+State}}.
+
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_a3513e0df6e2261fe01b6272f7eb5a2b4}\label{class_paoo_game_1_1_states_1_1_play_state_a3513e0df6e2261fe01b6272f7eb5a2b4}} 
+\index{PaooGame.States.PlayState@{PaooGame.States.PlayState}!Update@{Update}}
+\index{Update@{Update}!PaooGame.States.PlayState@{PaooGame.States.PlayState}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+States.\+Play\+State.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Actualizeaza starea curenta a jocului. 
+
+se apeleaza functia update din obiectele create
+
+butonul p este apasat , starea de joc este citita si salvata in baza de date
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_a358ce2dea3b960c707b1a7ed837e2355}{Paoo\+Game.\+States.\+State}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_a20d394fec88d735797765cc0b78ddd1e}\label{class_paoo_game_1_1_states_1_1_play_state_a20d394fec88d735797765cc0b78ddd1e}} 
+\index{PaooGame.States.PlayState@{PaooGame.States.PlayState}!player@{player}}
+\index{player@{player}!PaooGame.States.PlayState@{PaooGame.States.PlayState}}
+\doxysubsubsection{\texorpdfstring{player}{player}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_player}{Player}} Paoo\+Game.\+States.\+Play\+State.\+player\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+Referinta catre obiectul animat erou (controlat de utilizator). 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+States/Play\+State.\+java\end{DoxyCompactItemize}

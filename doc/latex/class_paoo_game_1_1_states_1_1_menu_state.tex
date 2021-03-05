@@ -1,0 +1,106 @@
+\hypertarget{class_paoo_game_1_1_states_1_1_menu_state}{}\doxysection{Paoo\+Game.\+States.\+Menu\+State Class Reference}
+\label{class_paoo_game_1_1_states_1_1_menu_state}\index{PaooGame.States.MenuState@{PaooGame.States.MenuState}}
+
+
+Implementeaza notiunea de menu pentru joc.  
+
+
+Inheritance diagram for Paoo\+Game.\+States.\+Menu\+State\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_paoo_game_1_1_states_1_1_menu_state}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_states_1_1_menu_state_a678b9640e8c93131b583a19b565e7a15}{Menu\+State}} ()
+\begin{DoxyCompactList}\small\item\em Constructorul de initializare al clasei. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_menu_state_aa2ff0445baa4b134d9e1c48b152d98e7}{Update}} ()  throws File\+Not\+Found\+Exception 
+\begin{DoxyCompactList}\small\item\em Actualizeaza starea curenta a meniului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_menu_state_aad6460e127d43a72f95c8571132143a8}{Draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Deseneaza (randeaza) pe ecran starea curenta a meniului de start. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_menu_state_a0cb49383dd0c0f9c21f326056364103d}\label{class_paoo_game_1_1_states_1_1_menu_state_a0cb49383dd0c0f9c21f326056364103d}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_menu_state_a0cb49383dd0c0f9c21f326056364103d}{k}}
+\begin{DoxyCompactList}\small\item\em parametru folosit pentru radul de transparenta \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_menu_state_af295c734b5c0bf61221b7014f821fa3e}\label{class_paoo_game_1_1_states_1_1_menu_state_af295c734b5c0bf61221b7014f821fa3e}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_menu_state_af295c734b5c0bf61221b7014f821fa3e}{button\+\_\+selected}}
+\begin{DoxyCompactList}\small\item\em butonul selectat din meniu \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_menu_state_aa9925364b6dfa8869c5b1fa715bda870}\label{class_paoo_game_1_1_states_1_1_menu_state_aa9925364b6dfa8869c5b1fa715bda870}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_menu_state_aa9925364b6dfa8869c5b1fa715bda870}{timer}}
+\begin{DoxyCompactList}\small\item\em timerul pentru schimbarea butoanelor \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Implementeaza notiunea de menu pentru joc. 
+
+class \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_menu_state}{Menu\+State}} extends \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state}{State}} 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_menu_state_a678b9640e8c93131b583a19b565e7a15}\label{class_paoo_game_1_1_states_1_1_menu_state_a678b9640e8c93131b583a19b565e7a15}} 
+\index{PaooGame.States.MenuState@{PaooGame.States.MenuState}!MenuState@{MenuState}}
+\index{MenuState@{MenuState}!PaooGame.States.MenuState@{PaooGame.States.MenuState}}
+\doxysubsubsection{\texorpdfstring{MenuState()}{MenuState()}}
+{\footnotesize\ttfamily public Paoo\+Game.\+States.\+Menu\+State.\+Menu\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructorul de initializare al clasei. 
+
+Apel al constructorului clasei de baza.
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_menu_state_aad6460e127d43a72f95c8571132143a8}\label{class_paoo_game_1_1_states_1_1_menu_state_aad6460e127d43a72f95c8571132143a8}} 
+\index{PaooGame.States.MenuState@{PaooGame.States.MenuState}!Draw@{Draw}}
+\index{Draw@{Draw}!PaooGame.States.MenuState@{PaooGame.States.MenuState}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+States.\+Menu\+State.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Deseneaza (randeaza) pe ecran starea curenta a meniului de start. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic in care trebuie sa deseneze starea jocului pe ecran. \\
+\hline
+\end{DoxyParams}
+se deseneaza titlul jocului
+
+se deseneaza butoanele si textul din ele si se schimba culoarea butonului selectat
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_a1b7ea671618e0aaaf398e5fada65ab57}{Paoo\+Game.\+States.\+State}}.
+
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_menu_state_aa2ff0445baa4b134d9e1c48b152d98e7}\label{class_paoo_game_1_1_states_1_1_menu_state_aa2ff0445baa4b134d9e1c48b152d98e7}} 
+\index{PaooGame.States.MenuState@{PaooGame.States.MenuState}!Update@{Update}}
+\index{Update@{Update}!PaooGame.States.MenuState@{PaooGame.States.MenuState}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+States.\+Menu\+State.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws File\+Not\+Found\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Actualizeaza starea curenta a meniului. 
+
+se verifica daca muzica este pornita din setari
+
+se receptioneaza butoanele pt selectarea in meniu
+
+butonul de play este selectat
+
+butonul de load game este selectat
+
+butonul de settings este selectat
+
+butonul de exit este selectat
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_a358ce2dea3b960c707b1a7ed837e2355}{Paoo\+Game.\+States.\+State}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+States/Menu\+State.\+java\end{DoxyCompactItemize}

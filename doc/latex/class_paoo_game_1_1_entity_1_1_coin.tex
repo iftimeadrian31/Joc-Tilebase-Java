@@ -1,0 +1,102 @@
+\hypertarget{class_paoo_game_1_1_entity_1_1_coin}{}\doxysection{Paoo\+Game.\+Entity.\+Coin Class Reference}
+\label{class_paoo_game_1_1_entity_1_1_coin}\index{PaooGame.Entity.Coin@{PaooGame.Entity.Coin}}
+
+
+Abstractizeaza notiunea de entitate de tip moneda.  
+
+
+Inheritance diagram for Paoo\+Game.\+Entity.\+Coin\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_paoo_game_1_1_entity_1_1_coin}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_coin_a56207aba3f58ee16042e78fcc8fc5319}{Coin}} (int \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_entity_a62f4ba83bb9bfecc28ac8cdf04545856}{id}})
+\begin{DoxyCompactList}\small\item\em Constructorul de initializare al clasei. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_coin_a11b2fcfd0a80eaf98e3f01678c5cb56d}{Draw}} (Graphics g, int x, int y)
+\begin{DoxyCompactList}\small\item\em Deseneaza in fereastra entitatea. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_coin_a6d798023de057c3cefcf111ce459d2b6}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizeaza proprietatile entitatii. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_coin_ab2a8afe0ff6567360e1a4e6eea6a7917}\label{class_paoo_game_1_1_entity_1_1_coin_ab2a8afe0ff6567360e1a4e6eea6a7917}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_coin_ab2a8afe0ff6567360e1a4e6eea6a7917}{frame}} =0
+\begin{DoxyCompactList}\small\item\em atribut folosit pentru a selecta poza de animatie \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_coin_a2b2cabc66e4399926ebda0c3b2b9aa0c}\label{class_paoo_game_1_1_entity_1_1_coin_a2b2cabc66e4399926ebda0c3b2b9aa0c}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_coin_a2b2cabc66e4399926ebda0c3b2b9aa0c}{frame\+Delay}} =0
+\begin{DoxyCompactList}\small\item\em atribut folosit pentru a dicta viteza de modificare a frame-\/ului \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Abstractizeaza notiunea de entitate de tip moneda. 
+
+class \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_coin}{Coin}} extends \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_entity}{Entity}} 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_coin_a56207aba3f58ee16042e78fcc8fc5319}\label{class_paoo_game_1_1_entity_1_1_coin_a56207aba3f58ee16042e78fcc8fc5319}} 
+\index{PaooGame.Entity.Coin@{PaooGame.Entity.Coin}!Coin@{Coin}}
+\index{Coin@{Coin}!PaooGame.Entity.Coin@{PaooGame.Entity.Coin}}
+\doxysubsubsection{\texorpdfstring{Coin()}{Coin()}}
+{\footnotesize\ttfamily public Paoo\+Game.\+Entity.\+Coin.\+Coin (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructorul de initializare al clasei. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Id-\/ul dalei util in desenarea hartii. \\
+\hline
+\end{DoxyParams}
+Apel al constructorului clasei de baza
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_coin_a11b2fcfd0a80eaf98e3f01678c5cb56d}\label{class_paoo_game_1_1_entity_1_1_coin_a11b2fcfd0a80eaf98e3f01678c5cb56d}} 
+\index{PaooGame.Entity.Coin@{PaooGame.Entity.Coin}!Draw@{Draw}}
+\index{Draw@{Draw}!PaooGame.Entity.Coin@{PaooGame.Entity.Coin}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+Entity.\+Coin.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Deseneaza in fereastra entitatea. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic in care sa se realizeze desenarea \\
+\hline
+{\em x} & Coordonata x in cadrul ferestrei unde sa fie desenata entitatea \\
+\hline
+{\em y} & Coordonata y in cadrul ferestrei unde sa fie desenata entitatea \\
+\hline
+\end{DoxyParams}
+Daca obiectul nu a fost atins , se deseneaza
+
+obiectul a fost atins
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_entity_ae1da9deb9cc43fc4927273e794d29bb5}{Paoo\+Game.\+Entity.\+Entity}}.
+
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_coin_a6d798023de057c3cefcf111ce459d2b6}\label{class_paoo_game_1_1_entity_1_1_coin_a6d798023de057c3cefcf111ce459d2b6}} 
+\index{PaooGame.Entity.Coin@{PaooGame.Entity.Coin}!Update@{Update}}
+\index{Update@{Update}!PaooGame.Entity.Coin@{PaooGame.Entity.Coin}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+Entity.\+Coin.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Actualizeaza proprietatile entitatii. 
+
+imaginea obiectului se schimba rapid dand impresia de miscare
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_entity_a294e0c53fe7895e97f3176e29f2dfa6c}{Paoo\+Game.\+Entity.\+Entity}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+Entity/Coin.\+java\end{DoxyCompactItemize}

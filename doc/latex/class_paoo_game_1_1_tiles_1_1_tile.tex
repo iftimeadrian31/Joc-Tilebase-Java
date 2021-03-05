@@ -1,0 +1,465 @@
+\hypertarget{class_paoo_game_1_1_tiles_1_1_tile}{}\doxysection{Paoo\+Game.\+Tiles.\+Tile Class Reference}
+\label{class_paoo_game_1_1_tiles_1_1_tile}\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+
+
+Retine toate dalele intr-\/un vector si ofera posibilitatea regasirii dupa un id.  
+
+
+Inheritance diagram for Paoo\+Game.\+Tiles.\+Tile\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=11.000000cm]{class_paoo_game_1_1_tiles_1_1_tile}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a64e498287a6e1ff5215824e07add5434}{Tile}} (Buffered\+Image image, int idd)
+\begin{DoxyCompactList}\small\item\em Constructorul aferent clasei. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a8970b5b84cd888d663904a78f9ffeebf}\label{class_paoo_game_1_1_tiles_1_1_tile_a8970b5b84cd888d663904a78f9ffeebf}} 
+void \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a8970b5b84cd888d663904a78f9ffeebf}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizeaza proprietatile dalei. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_ae15080f66fc344a73afdd3a78205acd6}{Draw\+Background}} (Graphics g, int x, int y)
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a03ee8089a271b3f27747d752ab113eb0}{Draw\+Menu}} (Graphics g, int x, int y)
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_aa995e44b15690e2a8384c4271a47685d}{Draw\+Button}} (Graphics g, int x, int y)
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a3bb3be3b9c108d55675f0942285db7db}{Draw}} (Graphics g, int x, int y)
+\begin{DoxyCompactList}\small\item\em Deseneaza in fereastra dala. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a24386e72ba105c58a43bf9cc6ab3edf7}\label{class_paoo_game_1_1_tiles_1_1_tile_a24386e72ba105c58a43bf9cc6ab3edf7}} 
+boolean \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a24386e72ba105c58a43bf9cc6ab3edf7}{Is\+Solid}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza proprietatea de dala solida (supusa coliziunilor) sau nu. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_ae57649eb51316c6973eab537e9f63358}\label{class_paoo_game_1_1_tiles_1_1_tile_ae57649eb51316c6973eab537e9f63358}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_ae57649eb51316c6973eab537e9f63358}{Get\+Id}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza id-\/ul dalei. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a7ac1b736194baf8bacada74a46d41981}\label{class_paoo_game_1_1_tiles_1_1_tile_a7ac1b736194baf8bacada74a46d41981}} 
+Rectangle {\bfseries get\+Bounds} ()
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a7e67966568a8051d86424022d958dd34}\label{class_paoo_game_1_1_tiles_1_1_tile_a7e67966568a8051d86424022d958dd34}} 
+void {\bfseries setY} (int y)
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a3f3cd8138193418337c0d51d466c02e5}\label{class_paoo_game_1_1_tiles_1_1_tile_a3f3cd8138193418337c0d51d466c02e5}} 
+void {\bfseries setX} (int x)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Buffered\+Image \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_aafa5ca1883d367c2dd57aee0e19ec10d}{img}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_ad9f22971d34446b4b3a446f232c76693}{tiles}} \mbox{[}$\,$\mbox{]} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}}\mbox{[}39\mbox{]}
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_af1c8da0734c24502d1e362f903ed0b5f}{menu}} = new \mbox{\hyperlink{class_paoo_game_1_1_menu}{Menu}}(0)
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a317ecda45e239db1819cc4f046f5c014}\label{class_paoo_game_1_1_tiles_1_1_tile_a317ecda45e239db1819cc4f046f5c014}} 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} {\bfseries background1} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_background}{Background}}(0, \mbox{\hyperlink{class_paoo_game_1_1_graphics_1_1_assets_a417fb8024249777aa7dcf1058fbf5a30}{Assets.\+background}}\mbox{[}0\mbox{]})
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_abd8fe3b9b16aec98c376e341db396fb2}\label{class_paoo_game_1_1_tiles_1_1_tile_abd8fe3b9b16aec98c376e341db396fb2}} 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} {\bfseries background3} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_background}{Background}}(0, \mbox{\hyperlink{class_paoo_game_1_1_graphics_1_1_assets_a417fb8024249777aa7dcf1058fbf5a30}{Assets.\+background}}\mbox{[}1\mbox{]})
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a0d67dd246e898af819a25cea33ce40d2}\label{class_paoo_game_1_1_tiles_1_1_tile_a0d67dd246e898af819a25cea33ce40d2}} 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} {\bfseries background4} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_background}{Background}}(0, \mbox{\hyperlink{class_paoo_game_1_1_graphics_1_1_assets_a417fb8024249777aa7dcf1058fbf5a30}{Assets.\+background}}\mbox{[}2\mbox{]})
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_ab1bfd4f1783b7bc20ffb328249f0829f}\label{class_paoo_game_1_1_tiles_1_1_tile_ab1bfd4f1783b7bc20ffb328249f0829f}} 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} {\bfseries background5} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_background}{Background}}(0, \mbox{\hyperlink{class_paoo_game_1_1_graphics_1_1_assets_a417fb8024249777aa7dcf1058fbf5a30}{Assets.\+background}}\mbox{[}3\mbox{]})
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a29add6ad695f3b897e61cb21ed08e37b}{grass\+Tile}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_grass_tile}{Grass\+Tile}}(1)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_aeadec27452360443b80662822cd21c4f}{grass\+Tile2}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_grass_tile}{Grass\+Tile}}(2)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_ab91eb2fab76fb1b93ca1051f81b81b44}{grass\+Tile3}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_grass_tile}{Grass\+Tile}}(3)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a4f6d81f653a721741a34e994feb69598}{grass\+Tile4}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_grass_tile}{Grass\+Tile}}(4)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a67bc08bd35a345ce864f652945695c34}{grass\+Tile5}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_grass_tile}{Grass\+Tile}}(5)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a2696984908699e770bcf40e8e426311b}{grass\+Tile6}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_grass_tile}{Grass\+Tile}}(6)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a9ef474ad5db2b978f5a7090a77cb39cf}{grass\+Tile7}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_grass_tile}{Grass\+Tile}}(7)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a19e76a921e64338d344646eb39e0a8b1}{platform\+Tile}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_platform}{Platform}}(8)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a1a168032907f9b2b60871f211a010fe9}{platform\+Tile2}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_platform}{Platform}}(9)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a0dd66805dfa8c8fef84db7f35b190f67}{platform\+Tile3}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_platform}{Platform}}(10)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_ae5e7c2955ba753e5f058d6a220a69cf7}{soil\+Tile}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_soil_tile}{Soil\+Tile}}(11)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a457584f3bbacc573b33d9ece3a464a10}{stone\+Tile}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_stone_tile}{Stone\+Tile}}(12)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_ac00584ca8d50c26308c5d6e088e6cbb0}{stone\+Tile2}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_stone_tile}{Stone\+Tile}}(13)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a125f60ec231b2e2d2731f4c4e9c19854}{stone\+Tile3}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_stone_tile}{Stone\+Tile}}(14)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a03e5f6eb20a1b9298732629b7dcef466}{end\+Tile}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_end_tile}{End\+Tile}}(15)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_aba94c1b4a472ebc95184ec87d8e020a0}{snow\+Tile}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_snow_tile}{Snow\+Tile}}(16)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_acdb2ae2f5dbe359ab3d335c72e729530}{snow\+Tile2}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_snow_tile}{Snow\+Tile}}(17)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_ae03b584c84242ccd2bd5e467fecb551c}{snow\+Tile3}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_snow_tile}{Snow\+Tile}}(18)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a29e8cc4689953bedfcaba4b11d46e17b}{snow\+Tile4}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_snow_tile}{Snow\+Tile}}(19)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a4608ca830a2ddb0a377213edd1a16c48}{snow\+Tile5}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_snow_tile}{Snow\+Tile}}(20)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a651e104069d135e65d349ff06d6af811}{soil\+Tile2}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_soil_tile}{Soil\+Tile}}(21)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a18be9b87cebd308077d0914915352c57}{soil\+Tile3}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_soil_tile}{Soil\+Tile}}(22)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_aa8a3d10a63f8335c8645aa515b4eac9a}{soil\+Tile4}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_soil_tile}{Soil\+Tile}}(23)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a1b3695b92ef683b7cb0b2d874c994a21}{soil\+Tile5}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_soil_tile}{Soil\+Tile}}(24)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a14e5c1164a89ab47908349949b761046}{soil\+Tile6}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_soil_tile}{Soil\+Tile}}(25)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_ae59fcb9475f185903a4fa08aa862ccd1}{soil\+Tile7}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_soil_tile}{Soil\+Tile}}(26)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a223b26f3ee81450ab1df2f338029e57c}{soil\+Tile8}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_soil_tile}{Soil\+Tile}}(27)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a5ab06dea7afa4eb747362a62d1899630}{soil\+Tile9}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_soil_tile}{Soil\+Tile}}(28)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_ad26043853f8731ae85d714e28f581f0b}{snow\+Platform}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_snow_platform}{Snow\+Platform}}(29)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a078d603129e6a491bc9d2475f24d3e2c}{snow\+Platform2}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_snow_platform}{Snow\+Platform}}(30)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_ae7b1e48c125f34cdc23f1a6be03d4e68}{snow\+Platform3}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_snow_platform}{Snow\+Platform}}(31)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_ad0afc54904839498c5bba1b3bd6d7b05}{water\+Tile}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_water_tile}{Water\+Tile}}(32)
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a50a4d5d7a085efcd15f6c77910e0bd3f}{water\+Tile2}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_water_tile}{Water\+Tile}}(33)
+\item 
+static final int \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a3a97c400b60d12e82f0b8acb3b0f719c}{T\+I\+L\+E\+\_\+\+W\+I\+D\+TH}} = 48
+\item 
+static final int \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a3cd5fb65254649f466a2c9f76cad5ecb}{T\+I\+L\+E\+\_\+\+H\+E\+I\+G\+HT}} = 48
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a0cccce26137d0cbcd00cd3b5d9c62c08}\label{class_paoo_game_1_1_tiles_1_1_tile_a0cccce26137d0cbcd00cd3b5d9c62c08}} 
+Graphics {\bfseries g}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a78d4cbe48fc43ce9302f0841f55f5423}\label{class_paoo_game_1_1_tiles_1_1_tile_a78d4cbe48fc43ce9302f0841f55f5423}} 
+int {\bfseries x}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_ad059e90e0958a76d46e165170786cab0}\label{class_paoo_game_1_1_tiles_1_1_tile_ad059e90e0958a76d46e165170786cab0}} 
+int {\bfseries y}
+\item 
+final int \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a511d6f89665f0df009de4705004eef4a}{id}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_aafb1feb234b426eeef03326176c0ae79}\label{class_paoo_game_1_1_tiles_1_1_tile_aafb1feb234b426eeef03326176c0ae79}} 
+boolean {\bfseries solid} =true
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Retine toate dalele intr-\/un vector si ofera posibilitatea regasirii dupa un id. 
+
+class \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a64e498287a6e1ff5215824e07add5434}\label{class_paoo_game_1_1_tiles_1_1_tile_a64e498287a6e1ff5215824e07add5434}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!Tile@{Tile}}
+\index{Tile@{Tile}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{Tile()}{Tile()}}
+{\footnotesize\ttfamily public Paoo\+Game.\+Tiles.\+Tile.\+Tile (\begin{DoxyParamCaption}\item[{Buffered\+Image}]{texture,  }\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructorul aferent clasei. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & Imaginea corespunzatoare dalei. \\
+\hline
+{\em id} & Id-\/ul dalei. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a3bb3be3b9c108d55675f0942285db7db}\label{class_paoo_game_1_1_tiles_1_1_tile_a3bb3be3b9c108d55675f0942285db7db}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!Draw@{Draw}}
+\index{Draw@{Draw}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Tiles.\+Tile.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Deseneaza in fereastra dala. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic in care sa se realizeze desenarea \\
+\hline
+{\em x} & Coordonata x in cadrul ferestrei unde sa fie desenata dala \\
+\hline
+{\em y} & Coordonata y in cadrul ferestrei unde sa fie desenata dala \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_ae15080f66fc344a73afdd3a78205acd6}\label{class_paoo_game_1_1_tiles_1_1_tile_ae15080f66fc344a73afdd3a78205acd6}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!DrawBackground@{DrawBackground}}
+\index{DrawBackground@{DrawBackground}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{DrawBackground()}{DrawBackground()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+Tiles.\+Tile.\+Draw\+Background (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Desenare dala\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_aa995e44b15690e2a8384c4271a47685d}\label{class_paoo_game_1_1_tiles_1_1_tile_aa995e44b15690e2a8384c4271a47685d}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!DrawButton@{DrawButton}}
+\index{DrawButton@{DrawButton}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{DrawButton()}{DrawButton()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+Tiles.\+Tile.\+Draw\+Button (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Desenare dala\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a03ee8089a271b3f27747d752ab113eb0}\label{class_paoo_game_1_1_tiles_1_1_tile_a03ee8089a271b3f27747d752ab113eb0}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!DrawMenu@{DrawMenu}}
+\index{DrawMenu@{DrawMenu}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{DrawMenu()}{DrawMenu()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+Tiles.\+Tile.\+Draw\+Menu (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Desenare dala
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a03e5f6eb20a1b9298732629b7dcef466}\label{class_paoo_game_1_1_tiles_1_1_tile_a03e5f6eb20a1b9298732629b7dcef466}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!endTile@{endTile}}
+\index{endTile@{endTile}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{endTile}{endTile}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+end\+Tile = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_end_tile}{End\+Tile}}(15)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip bloc de final \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a29add6ad695f3b897e61cb21ed08e37b}\label{class_paoo_game_1_1_tiles_1_1_tile_a29add6ad695f3b897e61cb21ed08e37b}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!grassTile@{grassTile}}
+\index{grassTile@{grassTile}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{grassTile}{grassTile}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+grass\+Tile = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_grass_tile}{Grass\+Tile}}(1)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip iarba \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_aeadec27452360443b80662822cd21c4f}\label{class_paoo_game_1_1_tiles_1_1_tile_aeadec27452360443b80662822cd21c4f}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!grassTile2@{grassTile2}}
+\index{grassTile2@{grassTile2}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{grassTile2}{grassTile2}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+grass\+Tile2 = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_grass_tile}{Grass\+Tile}}(2)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip iarba \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_ab91eb2fab76fb1b93ca1051f81b81b44}\label{class_paoo_game_1_1_tiles_1_1_tile_ab91eb2fab76fb1b93ca1051f81b81b44}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!grassTile3@{grassTile3}}
+\index{grassTile3@{grassTile3}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{grassTile3}{grassTile3}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+grass\+Tile3 = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_grass_tile}{Grass\+Tile}}(3)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip iarba \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a4f6d81f653a721741a34e994feb69598}\label{class_paoo_game_1_1_tiles_1_1_tile_a4f6d81f653a721741a34e994feb69598}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!grassTile4@{grassTile4}}
+\index{grassTile4@{grassTile4}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{grassTile4}{grassTile4}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+grass\+Tile4 = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_grass_tile}{Grass\+Tile}}(4)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip iarba \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a67bc08bd35a345ce864f652945695c34}\label{class_paoo_game_1_1_tiles_1_1_tile_a67bc08bd35a345ce864f652945695c34}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!grassTile5@{grassTile5}}
+\index{grassTile5@{grassTile5}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{grassTile5}{grassTile5}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+grass\+Tile5 = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_grass_tile}{Grass\+Tile}}(5)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip iarba \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a2696984908699e770bcf40e8e426311b}\label{class_paoo_game_1_1_tiles_1_1_tile_a2696984908699e770bcf40e8e426311b}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!grassTile6@{grassTile6}}
+\index{grassTile6@{grassTile6}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{grassTile6}{grassTile6}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+grass\+Tile6 = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_grass_tile}{Grass\+Tile}}(6)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip iarba \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a9ef474ad5db2b978f5a7090a77cb39cf}\label{class_paoo_game_1_1_tiles_1_1_tile_a9ef474ad5db2b978f5a7090a77cb39cf}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!grassTile7@{grassTile7}}
+\index{grassTile7@{grassTile7}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{grassTile7}{grassTile7}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+grass\+Tile7 = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_grass_tile}{Grass\+Tile}}(7)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip iarba \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a511d6f89665f0df009de4705004eef4a}\label{class_paoo_game_1_1_tiles_1_1_tile_a511d6f89665f0df009de4705004eef4a}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!id@{id}}
+\index{id@{id}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{id}{id}}
+{\footnotesize\ttfamily final int Paoo\+Game.\+Tiles.\+Tile.\+id\hspace{0.3cm}{\ttfamily [protected]}}
+
+Id-\/ul unic aferent tipului de dala. \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_aafa5ca1883d367c2dd57aee0e19ec10d}\label{class_paoo_game_1_1_tiles_1_1_tile_aafa5ca1883d367c2dd57aee0e19ec10d}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!img@{img}}
+\index{img@{img}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{img}{img}}
+{\footnotesize\ttfamily Buffered\+Image Paoo\+Game.\+Tiles.\+Tile.\+img}
+
+Imaginea aferenta tipului de dala. \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_af1c8da0734c24502d1e362f903ed0b5f}\label{class_paoo_game_1_1_tiles_1_1_tile_af1c8da0734c24502d1e362f903ed0b5f}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!menu@{menu}}
+\index{menu@{menu}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{menu}{menu}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+menu = new \mbox{\hyperlink{class_paoo_game_1_1_menu}{Menu}}(0)\hspace{0.3cm}{\ttfamily [static]}}
+
+De remarcat ca urmatoarele dale sunt statice si publice. Acest lucru imi permite sa le am incarcate o singura data in memorie \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a19e76a921e64338d344646eb39e0a8b1}\label{class_paoo_game_1_1_tiles_1_1_tile_a19e76a921e64338d344646eb39e0a8b1}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!platformTile@{platformTile}}
+\index{platformTile@{platformTile}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{platformTile}{platformTile}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+platform\+Tile = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_platform}{Platform}}(8)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip platforma \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a1a168032907f9b2b60871f211a010fe9}\label{class_paoo_game_1_1_tiles_1_1_tile_a1a168032907f9b2b60871f211a010fe9}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!platformTile2@{platformTile2}}
+\index{platformTile2@{platformTile2}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{platformTile2}{platformTile2}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+platform\+Tile2 = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_platform}{Platform}}(9)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip platforma \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a0dd66805dfa8c8fef84db7f35b190f67}\label{class_paoo_game_1_1_tiles_1_1_tile_a0dd66805dfa8c8fef84db7f35b190f67}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!platformTile3@{platformTile3}}
+\index{platformTile3@{platformTile3}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{platformTile3}{platformTile3}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+platform\+Tile3 = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_platform}{Platform}}(10)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip platforma \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_ad26043853f8731ae85d714e28f581f0b}\label{class_paoo_game_1_1_tiles_1_1_tile_ad26043853f8731ae85d714e28f581f0b}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!snowPlatform@{snowPlatform}}
+\index{snowPlatform@{snowPlatform}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{snowPlatform}{snowPlatform}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+snow\+Platform = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_snow_platform}{Snow\+Platform}}(29)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip sol/pamant \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a078d603129e6a491bc9d2475f24d3e2c}\label{class_paoo_game_1_1_tiles_1_1_tile_a078d603129e6a491bc9d2475f24d3e2c}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!snowPlatform2@{snowPlatform2}}
+\index{snowPlatform2@{snowPlatform2}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{snowPlatform2}{snowPlatform2}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+snow\+Platform2 = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_snow_platform}{Snow\+Platform}}(30)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip sol/pamant \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_ae7b1e48c125f34cdc23f1a6be03d4e68}\label{class_paoo_game_1_1_tiles_1_1_tile_ae7b1e48c125f34cdc23f1a6be03d4e68}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!snowPlatform3@{snowPlatform3}}
+\index{snowPlatform3@{snowPlatform3}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{snowPlatform3}{snowPlatform3}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+snow\+Platform3 = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_snow_platform}{Snow\+Platform}}(31)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip sol/pamant \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_aba94c1b4a472ebc95184ec87d8e020a0}\label{class_paoo_game_1_1_tiles_1_1_tile_aba94c1b4a472ebc95184ec87d8e020a0}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!snowTile@{snowTile}}
+\index{snowTile@{snowTile}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{snowTile}{snowTile}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+snow\+Tile = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_snow_tile}{Snow\+Tile}}(16)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip sol/pamant \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_acdb2ae2f5dbe359ab3d335c72e729530}\label{class_paoo_game_1_1_tiles_1_1_tile_acdb2ae2f5dbe359ab3d335c72e729530}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!snowTile2@{snowTile2}}
+\index{snowTile2@{snowTile2}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{snowTile2}{snowTile2}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+snow\+Tile2 = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_snow_tile}{Snow\+Tile}}(17)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip sol/pamant \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_ae03b584c84242ccd2bd5e467fecb551c}\label{class_paoo_game_1_1_tiles_1_1_tile_ae03b584c84242ccd2bd5e467fecb551c}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!snowTile3@{snowTile3}}
+\index{snowTile3@{snowTile3}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{snowTile3}{snowTile3}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+snow\+Tile3 = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_snow_tile}{Snow\+Tile}}(18)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip sol/pamant \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a29e8cc4689953bedfcaba4b11d46e17b}\label{class_paoo_game_1_1_tiles_1_1_tile_a29e8cc4689953bedfcaba4b11d46e17b}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!snowTile4@{snowTile4}}
+\index{snowTile4@{snowTile4}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{snowTile4}{snowTile4}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+snow\+Tile4 = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_snow_tile}{Snow\+Tile}}(19)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip sol/pamant \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a4608ca830a2ddb0a377213edd1a16c48}\label{class_paoo_game_1_1_tiles_1_1_tile_a4608ca830a2ddb0a377213edd1a16c48}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!snowTile5@{snowTile5}}
+\index{snowTile5@{snowTile5}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{snowTile5}{snowTile5}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+snow\+Tile5 = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_snow_tile}{Snow\+Tile}}(20)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip sol/pamant \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_ae5e7c2955ba753e5f058d6a220a69cf7}\label{class_paoo_game_1_1_tiles_1_1_tile_ae5e7c2955ba753e5f058d6a220a69cf7}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!soilTile@{soilTile}}
+\index{soilTile@{soilTile}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{soilTile}{soilTile}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+soil\+Tile = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_soil_tile}{Soil\+Tile}}(11)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip sol/pamant \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a651e104069d135e65d349ff06d6af811}\label{class_paoo_game_1_1_tiles_1_1_tile_a651e104069d135e65d349ff06d6af811}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!soilTile2@{soilTile2}}
+\index{soilTile2@{soilTile2}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{soilTile2}{soilTile2}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+soil\+Tile2 = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_soil_tile}{Soil\+Tile}}(21)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip sol/pamant \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a18be9b87cebd308077d0914915352c57}\label{class_paoo_game_1_1_tiles_1_1_tile_a18be9b87cebd308077d0914915352c57}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!soilTile3@{soilTile3}}
+\index{soilTile3@{soilTile3}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{soilTile3}{soilTile3}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+soil\+Tile3 = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_soil_tile}{Soil\+Tile}}(22)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip sol/pamant \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_aa8a3d10a63f8335c8645aa515b4eac9a}\label{class_paoo_game_1_1_tiles_1_1_tile_aa8a3d10a63f8335c8645aa515b4eac9a}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!soilTile4@{soilTile4}}
+\index{soilTile4@{soilTile4}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{soilTile4}{soilTile4}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+soil\+Tile4 = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_soil_tile}{Soil\+Tile}}(23)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip sol/pamant \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a1b3695b92ef683b7cb0b2d874c994a21}\label{class_paoo_game_1_1_tiles_1_1_tile_a1b3695b92ef683b7cb0b2d874c994a21}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!soilTile5@{soilTile5}}
+\index{soilTile5@{soilTile5}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{soilTile5}{soilTile5}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+soil\+Tile5 = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_soil_tile}{Soil\+Tile}}(24)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip sol/pamant \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a14e5c1164a89ab47908349949b761046}\label{class_paoo_game_1_1_tiles_1_1_tile_a14e5c1164a89ab47908349949b761046}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!soilTile6@{soilTile6}}
+\index{soilTile6@{soilTile6}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{soilTile6}{soilTile6}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+soil\+Tile6 = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_soil_tile}{Soil\+Tile}}(25)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip sol/pamant \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_ae59fcb9475f185903a4fa08aa862ccd1}\label{class_paoo_game_1_1_tiles_1_1_tile_ae59fcb9475f185903a4fa08aa862ccd1}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!soilTile7@{soilTile7}}
+\index{soilTile7@{soilTile7}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{soilTile7}{soilTile7}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+soil\+Tile7 = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_soil_tile}{Soil\+Tile}}(26)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip sol/pamant \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a223b26f3ee81450ab1df2f338029e57c}\label{class_paoo_game_1_1_tiles_1_1_tile_a223b26f3ee81450ab1df2f338029e57c}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!soilTile8@{soilTile8}}
+\index{soilTile8@{soilTile8}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{soilTile8}{soilTile8}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+soil\+Tile8 = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_soil_tile}{Soil\+Tile}}(27)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip sol/pamant \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a5ab06dea7afa4eb747362a62d1899630}\label{class_paoo_game_1_1_tiles_1_1_tile_a5ab06dea7afa4eb747362a62d1899630}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!soilTile9@{soilTile9}}
+\index{soilTile9@{soilTile9}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{soilTile9}{soilTile9}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+soil\+Tile9 = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_soil_tile}{Soil\+Tile}}(28)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip sol/pamant \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a457584f3bbacc573b33d9ece3a464a10}\label{class_paoo_game_1_1_tiles_1_1_tile_a457584f3bbacc573b33d9ece3a464a10}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!stoneTile@{stoneTile}}
+\index{stoneTile@{stoneTile}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{stoneTile}{stoneTile}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+stone\+Tile = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_stone_tile}{Stone\+Tile}}(12)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip piatra \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_ac00584ca8d50c26308c5d6e088e6cbb0}\label{class_paoo_game_1_1_tiles_1_1_tile_ac00584ca8d50c26308c5d6e088e6cbb0}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!stoneTile2@{stoneTile2}}
+\index{stoneTile2@{stoneTile2}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{stoneTile2}{stoneTile2}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+stone\+Tile2 = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_stone_tile}{Stone\+Tile}}(13)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip piatra \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a125f60ec231b2e2d2731f4c4e9c19854}\label{class_paoo_game_1_1_tiles_1_1_tile_a125f60ec231b2e2d2731f4c4e9c19854}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!stoneTile3@{stoneTile3}}
+\index{stoneTile3@{stoneTile3}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{stoneTile3}{stoneTile3}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+stone\+Tile3 = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_stone_tile}{Stone\+Tile}}(14)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip piatra \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a3cd5fb65254649f466a2c9f76cad5ecb}\label{class_paoo_game_1_1_tiles_1_1_tile_a3cd5fb65254649f466a2c9f76cad5ecb}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!TILE\_HEIGHT@{TILE\_HEIGHT}}
+\index{TILE\_HEIGHT@{TILE\_HEIGHT}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{TILE\_HEIGHT}{TILE\_HEIGHT}}
+{\footnotesize\ttfamily final int Paoo\+Game.\+Tiles.\+Tile.\+T\+I\+L\+E\+\_\+\+H\+E\+I\+G\+HT = 48\hspace{0.3cm}{\ttfamily [static]}}
+
+Inaltimea unei dale. \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a3a97c400b60d12e82f0b8acb3b0f719c}\label{class_paoo_game_1_1_tiles_1_1_tile_a3a97c400b60d12e82f0b8acb3b0f719c}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!TILE\_WIDTH@{TILE\_WIDTH}}
+\index{TILE\_WIDTH@{TILE\_WIDTH}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{TILE\_WIDTH}{TILE\_WIDTH}}
+{\footnotesize\ttfamily final int Paoo\+Game.\+Tiles.\+Tile.\+T\+I\+L\+E\+\_\+\+W\+I\+D\+TH = 48\hspace{0.3cm}{\ttfamily [static]}}
+
+Latimea unei dale. \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_ad9f22971d34446b4b3a446f232c76693}\label{class_paoo_game_1_1_tiles_1_1_tile_ad9f22971d34446b4b3a446f232c76693}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!tiles@{tiles}}
+\index{tiles@{tiles}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{tiles}{tiles}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+tiles\mbox{[}$\,$\mbox{]} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}}\mbox{[}39\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+Vector de referinte de tipuri de dale. \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_ad0afc54904839498c5bba1b3bd6d7b05}\label{class_paoo_game_1_1_tiles_1_1_tile_ad0afc54904839498c5bba1b3bd6d7b05}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!waterTile@{waterTile}}
+\index{waterTile@{waterTile}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{waterTile}{waterTile}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+water\+Tile = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_water_tile}{Water\+Tile}}(32)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip sol/pamant \mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a50a4d5d7a085efcd15f6c77910e0bd3f}\label{class_paoo_game_1_1_tiles_1_1_tile_a50a4d5d7a085efcd15f6c77910e0bd3f}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!waterTile2@{waterTile2}}
+\index{waterTile2@{waterTile2}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{waterTile2}{waterTile2}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} Paoo\+Game.\+Tiles.\+Tile.\+water\+Tile2 = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_water_tile}{Water\+Tile}}(33)\hspace{0.3cm}{\ttfamily [static]}}
+
+Dala de tip sol/pamant 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+Tiles/Tile.\+java\end{DoxyCompactItemize}

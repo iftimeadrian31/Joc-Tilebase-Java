@@ -1,0 +1,119 @@
+\hypertarget{class_paoo_game_1_1_entity_1_1_wolf}{}\doxysection{Paoo\+Game.\+Entity.\+Wolf Class Reference}
+\label{class_paoo_game_1_1_entity_1_1_wolf}\index{PaooGame.Entity.Wolf@{PaooGame.Entity.Wolf}}
+
+
+Abstractizeaza notiunea de entitate de tip wolf.  
+
+
+Inheritance diagram for Paoo\+Game.\+Entity.\+Wolf\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_paoo_game_1_1_entity_1_1_wolf}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_wolf_a3cb907097fb043e92e5803ec9c6f0d94}\label{class_paoo_game_1_1_entity_1_1_wolf_a3cb907097fb043e92e5803ec9c6f0d94}} 
+{\bfseries Wolf} (int \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_entity_a62f4ba83bb9bfecc28ac8cdf04545856}{id}}, int x, int y)
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_wolf_a6a58f35cc55deee03896e95f544b1581}{Draw}} (Graphics g, int x, int y)
+\begin{DoxyCompactList}\small\item\em Deseneaza in fereastra entitatea. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_wolf_aba339e1f444f38ef42a0fb7b7defaf02}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizeaza proprietatile entitatii. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_wolf_ad74e08569e49e08cfe22ca2ec25a59e9}\label{class_paoo_game_1_1_entity_1_1_wolf_ad74e08569e49e08cfe22ca2ec25a59e9}} 
+boolean \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_wolf_ad74e08569e49e08cfe22ca2ec25a59e9}{start}} =true
+\begin{DoxyCompactList}\small\item\em atribut folosit pozitionarea initiala pe harta \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_wolf_a8a8f1f1a59b6b14aa7b873b6ec496eac}{Movement}} ()
+\begin{DoxyCompactList}\small\item\em realizeaza miscarea mobului . \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_wolf_ab007653eb62dacc32ad53661d16326fc}{Collision}} ()
+\begin{DoxyCompactList}\small\item\em realizeaza coliziunea mobului cu peretii . \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_wolf_a08fbd7cbce75065ce8b33d72f601c769}\label{class_paoo_game_1_1_entity_1_1_wolf_a08fbd7cbce75065ce8b33d72f601c769}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_wolf_a08fbd7cbce75065ce8b33d72f601c769}{VelX}}
+\begin{DoxyCompactList}\small\item\em atribut folosit miscarea pe axa X \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_wolf_a4313e1fc8f6257a6cc4f362fadbd806a}\label{class_paoo_game_1_1_entity_1_1_wolf_a4313e1fc8f6257a6cc4f362fadbd806a}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_wolf_a4313e1fc8f6257a6cc4f362fadbd806a}{frame}} =0
+\begin{DoxyCompactList}\small\item\em atribut folosit selectarea pozei \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_wolf_a3898a7dd9432fdbd679ec0c357fd3d41}\label{class_paoo_game_1_1_entity_1_1_wolf_a3898a7dd9432fdbd679ec0c357fd3d41}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_wolf_a3898a7dd9432fdbd679ec0c357fd3d41}{frame\+Delay}} =0
+\begin{DoxyCompactList}\small\item\em atribut folosit pentru timerul trecerii de la o poza la alta \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Abstractizeaza notiunea de entitate de tip wolf. 
+
+class \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_wolf}{Wolf}} extends \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_entity}{Entity}} 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_wolf_ab007653eb62dacc32ad53661d16326fc}\label{class_paoo_game_1_1_entity_1_1_wolf_ab007653eb62dacc32ad53661d16326fc}} 
+\index{PaooGame.Entity.Wolf@{PaooGame.Entity.Wolf}!Collision@{Collision}}
+\index{Collision@{Collision}!PaooGame.Entity.Wolf@{PaooGame.Entity.Wolf}}
+\doxysubsubsection{\texorpdfstring{Collision()}{Collision()}}
+{\footnotesize\ttfamily private void Paoo\+Game.\+Entity.\+Wolf.\+Collision (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+realizeaza coliziunea mobului cu peretii . 
+
+se verifica daca mobul se afla in aer si se intoarce pt a nu cadea\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_wolf_a6a58f35cc55deee03896e95f544b1581}\label{class_paoo_game_1_1_entity_1_1_wolf_a6a58f35cc55deee03896e95f544b1581}} 
+\index{PaooGame.Entity.Wolf@{PaooGame.Entity.Wolf}!Draw@{Draw}}
+\index{Draw@{Draw}!PaooGame.Entity.Wolf@{PaooGame.Entity.Wolf}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+Entity.\+Wolf.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Deseneaza in fereastra entitatea. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic in care sa se realizeze desenarea \\
+\hline
+{\em x} & Coordonata x in cadrul ferestrei unde sa fie desenata entitatea \\
+\hline
+{\em y} & Coordonata y in cadrul ferestrei unde sa fie desenata entitatea \\
+\hline
+\end{DoxyParams}
+daca entitatea inca nu este desenata se va desena la pozitia din harta, altfel este desenat in functie de valorile EntityX si EntityY
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_entity_ae1da9deb9cc43fc4927273e794d29bb5}{Paoo\+Game.\+Entity.\+Entity}}.
+
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_wolf_a8a8f1f1a59b6b14aa7b873b6ec496eac}\label{class_paoo_game_1_1_entity_1_1_wolf_a8a8f1f1a59b6b14aa7b873b6ec496eac}} 
+\index{PaooGame.Entity.Wolf@{PaooGame.Entity.Wolf}!Movement@{Movement}}
+\index{Movement@{Movement}!PaooGame.Entity.Wolf@{PaooGame.Entity.Wolf}}
+\doxysubsubsection{\texorpdfstring{Movement()}{Movement()}}
+{\footnotesize\ttfamily private void Paoo\+Game.\+Entity.\+Wolf.\+Movement (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+realizeaza miscarea mobului . 
+
+aceste verificari ajuta la modificarea vitezei mobului in cazul miscarii hartii care la randul ei este determinata de miscarea playerului adica de apasarea tastelor wasd\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_wolf_aba339e1f444f38ef42a0fb7b7defaf02}\label{class_paoo_game_1_1_entity_1_1_wolf_aba339e1f444f38ef42a0fb7b7defaf02}} 
+\index{PaooGame.Entity.Wolf@{PaooGame.Entity.Wolf}!Update@{Update}}
+\index{Update@{Update}!PaooGame.Entity.Wolf@{PaooGame.Entity.Wolf}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+Entity.\+Wolf.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Actualizeaza proprietatile entitatii. 
+
+se scurge timpul de invulnerabilitate
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_entity_a294e0c53fe7895e97f3176e29f2dfa6c}{Paoo\+Game.\+Entity.\+Entity}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+Entity/Wolf.\+java\end{DoxyCompactItemize}

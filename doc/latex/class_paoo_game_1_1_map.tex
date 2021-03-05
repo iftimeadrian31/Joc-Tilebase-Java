@@ -1,0 +1,168 @@
+\hypertarget{class_paoo_game_1_1_map}{}\doxysection{Paoo\+Game.\+Map Class Reference}
+\label{class_paoo_game_1_1_map}\index{PaooGame.Map@{PaooGame.Map}}
+
+
+clasa care se ocupa de obtinerea pozitiei dalelor , mobilor si playerului din fisierele cu harti si desenarea lor pe fereastra  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_map_a5d7900d83741560c9b71ad71c0bbe0e0}{Map}} (int level)  throws File\+Not\+Found\+Exception 
+\begin{DoxyCompactList}\small\item\em constructor in care mai intai se calculeaza numarul de elemente de orice fel si apoi se creeaza limitele de coliziune pentru fiecare \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_map_a9807fc578c971c7ffadc9d716f3ae9b5}{Create\+Map}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em functie care deseneaza harta si entitatile \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_map_a009f4c88b199b616c0a0b5b66f225220}{Update}} ()
+\begin{DoxyCompactList}\small\item\em functie care realizeaza modificarea pozitiei elementelor , blocarea iesirii de pe ecran si miscarea camerei \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_map_adf7e41505dd981453119e8f236c85918}\label{class_paoo_game_1_1_map_adf7e41505dd981453119e8f236c85918}} 
+int {\bfseries get\+Coinscount} ()
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_map_a5326b88f4b20ac48ff13f499bef366e8}\label{class_paoo_game_1_1_map_a5326b88f4b20ac48ff13f499bef366e8}} 
+void {\bfseries set\+Coinscount} (int \mbox{\hyperlink{class_paoo_game_1_1_map_a1ba00823420d6c807f9ed73d704f33dc}{coinscount}})
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_map_a65ced02ee04b7ac0eef3288036f1325c}\label{class_paoo_game_1_1_map_a65ced02ee04b7ac0eef3288036f1325c}} 
+int {\bfseries get\+Monsterscount} ()
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_map_aac95d057b6b5ab0dd9daa99e8abfdf37}\label{class_paoo_game_1_1_map_aac95d057b6b5ab0dd9daa99e8abfdf37}} 
+void {\bfseries set\+Monsterscount} (int \mbox{\hyperlink{class_paoo_game_1_1_map_aa427a3c037da3ed544c5830b3fe76d55}{monsterscount}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_map_a3c6f97ba4e3afe38f764a28a45c7f984}\label{class_paoo_game_1_1_map_a3c6f97ba4e3afe38f764a28a45c7f984}} 
+static int {\bfseries get\+Stop\+\_\+\+Dreapta} ()
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_map_ae970726b23e22b0b95925067360b7462}\label{class_paoo_game_1_1_map_ae970726b23e22b0b95925067360b7462}} 
+static int {\bfseries get\+Stop\+\_\+\+Stanga} ()
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_map_a4d201cfe7936ef236f3102b9d3cfcbce}\label{class_paoo_game_1_1_map_a4d201cfe7936ef236f3102b9d3cfcbce}} 
+static int {\bfseries getL} ()
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_map_a64c432602b1c3aafae3446702e8c9e84}\label{class_paoo_game_1_1_map_a64c432602b1c3aafae3446702e8c9e84}} 
+static void {\bfseries setL} (int \mbox{\hyperlink{class_paoo_game_1_1_map_a63a23503221be6dca4091837cf166713}{l}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_map_a9a1be3dbcbc7b70292db806096303674}\label{class_paoo_game_1_1_map_a9a1be3dbcbc7b70292db806096303674}} 
+static \mbox{\hyperlink{class_paoo_game_1_1_graphics_1_1_collision_objects}{Collision\+Objects}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_paoo_game_1_1_map_a9a1be3dbcbc7b70292db806096303674}{Tiles}}
+\begin{DoxyCompactList}\small\item\em vector de referinte catre dalele intregi \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_map_a51f3df49bfa05cee924e311be1032c42}\label{class_paoo_game_1_1_map_a51f3df49bfa05cee924e311be1032c42}} 
+static \mbox{\hyperlink{class_paoo_game_1_1_graphics_1_1_collision_objects}{Collision\+Objects}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_paoo_game_1_1_map_a51f3df49bfa05cee924e311be1032c42}{Half\+Tiles}}
+\begin{DoxyCompactList}\small\item\em vector de referinte catre dalele tip platforma \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_map_a85d5f0c7b29277dedbc003e524715488}\label{class_paoo_game_1_1_map_a85d5f0c7b29277dedbc003e524715488}} 
+static \mbox{\hyperlink{class_paoo_game_1_1_graphics_1_1_collision_objects}{Collision\+Objects}} \mbox{\hyperlink{class_paoo_game_1_1_map_a85d5f0c7b29277dedbc003e524715488}{end\+Tile}}
+\begin{DoxyCompactList}\small\item\em referinta catre dala de trecere la nivel urmator \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_map_a6f58b34e8cfb35cd4b0761382ef8839e}\label{class_paoo_game_1_1_map_a6f58b34e8cfb35cd4b0761382ef8839e}} 
+static \mbox{\hyperlink{class_paoo_game_1_1_graphics_1_1_collision_objects}{Collision\+Objects}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_paoo_game_1_1_map_a6f58b34e8cfb35cd4b0761382ef8839e}{water\+Tiles}}
+\begin{DoxyCompactList}\small\item\em vector de referinte catre dalele de tip apa \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_map_a51fb649c09ffbfa36ec7bc762a0b0cb9}\label{class_paoo_game_1_1_map_a51fb649c09ffbfa36ec7bc762a0b0cb9}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_map_a51fb649c09ffbfa36ec7bc762a0b0cb9}{M}} \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}
+\begin{DoxyCompactList}\small\item\em matrice in care se stocheaza harta \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_map_ad0f15bdbabbd894cf46ae204af7be6e6}\label{class_paoo_game_1_1_map_ad0f15bdbabbd894cf46ae204af7be6e6}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_map_ad0f15bdbabbd894cf46ae204af7be6e6}{lungime}}
+\begin{DoxyCompactList}\small\item\em atribut care ilustreaza numarul de dale pe lungime \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_map_addd08d966914eee6238ea2e9f3607a99}\label{class_paoo_game_1_1_map_addd08d966914eee6238ea2e9f3607a99}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_map_addd08d966914eee6238ea2e9f3607a99}{inaltime}}
+\begin{DoxyCompactList}\small\item\em atribut care ilustreaza numarul de dale pe inaltime \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_map_a62565cf2df91f14608c9ba0e18f4d744}\label{class_paoo_game_1_1_map_a62565cf2df91f14608c9ba0e18f4d744}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_map_a62565cf2df91f14608c9ba0e18f4d744}{count}}
+\begin{DoxyCompactList}\small\item\em atribut care ilustreaza numarul de dale intregi \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_map_abc4a9c3da316c2c5b8e58d6e354aef14}\label{class_paoo_game_1_1_map_abc4a9c3da316c2c5b8e58d6e354aef14}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_map_abc4a9c3da316c2c5b8e58d6e354aef14}{halfcount}}
+\begin{DoxyCompactList}\small\item\em atribut care ilustreaza numarul de dale de tip platforma \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_map_ad2368fb089bad329b08ec93f3f132f5f}\label{class_paoo_game_1_1_map_ad2368fb089bad329b08ec93f3f132f5f}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_map_ad2368fb089bad329b08ec93f3f132f5f}{watercount}}
+\begin{DoxyCompactList}\small\item\em atribut care ilustreaza numarul de dale de tip apa \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_map_a1ba00823420d6c807f9ed73d704f33dc}\label{class_paoo_game_1_1_map_a1ba00823420d6c807f9ed73d704f33dc}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_map_a1ba00823420d6c807f9ed73d704f33dc}{coinscount}}
+\begin{DoxyCompactList}\small\item\em atribut care ilustreaza numarul de monezi \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_map_aa427a3c037da3ed544c5830b3fe76d55}\label{class_paoo_game_1_1_map_aa427a3c037da3ed544c5830b3fe76d55}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_map_aa427a3c037da3ed544c5830b3fe76d55}{monsterscount}}
+\begin{DoxyCompactList}\small\item\em atribut care ilustreaza numarul de monstrii \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_map_a63a23503221be6dca4091837cf166713}\label{class_paoo_game_1_1_map_a63a23503221be6dca4091837cf166713}} 
+static int \mbox{\hyperlink{class_paoo_game_1_1_map_a63a23503221be6dca4091837cf166713}{l}}
+\begin{DoxyCompactList}\small\item\em atribut care se foloseste la miscarea elementelor pe axa x \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_map_a3803603fd5ee5e09e48652e0052a5b53}\label{class_paoo_game_1_1_map_a3803603fd5ee5e09e48652e0052a5b53}} 
+static int \mbox{\hyperlink{class_paoo_game_1_1_map_a3803603fd5ee5e09e48652e0052a5b53}{k}}
+\begin{DoxyCompactList}\small\item\em atribut care se foloseste la miscarea elementelor pe axa y \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_map_a8193ff13ff94bd893ee948b4b5f26959}\label{class_paoo_game_1_1_map_a8193ff13ff94bd893ee948b4b5f26959}} 
+static int \mbox{\hyperlink{class_paoo_game_1_1_map_a8193ff13ff94bd893ee948b4b5f26959}{stop\+\_\+stanga}} = 0
+\begin{DoxyCompactList}\small\item\em atribut care dicteaza daca harta se mai poate misca in stanga \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_map_a1196907795d984f37cfede9e250c50a8}\label{class_paoo_game_1_1_map_a1196907795d984f37cfede9e250c50a8}} 
+static int \mbox{\hyperlink{class_paoo_game_1_1_map_a1196907795d984f37cfede9e250c50a8}{stop\+\_\+dreapta}} = 0
+\begin{DoxyCompactList}\small\item\em atribut care dicteaza daca harta se mai poate misca in dreapta \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+clasa care se ocupa de obtinerea pozitiei dalelor , mobilor si playerului din fisierele cu harti si desenarea lor pe fereastra 
+
+class \mbox{\hyperlink{class_paoo_game_1_1_map}{Map}} 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_map_a5d7900d83741560c9b71ad71c0bbe0e0}\label{class_paoo_game_1_1_map_a5d7900d83741560c9b71ad71c0bbe0e0}} 
+\index{PaooGame.Map@{PaooGame.Map}!Map@{Map}}
+\index{Map@{Map}!PaooGame.Map@{PaooGame.Map}}
+\doxysubsubsection{\texorpdfstring{Map()}{Map()}}
+{\footnotesize\ttfamily Paoo\+Game.\+Map.\+Map (\begin{DoxyParamCaption}\item[{int}]{level }\end{DoxyParamCaption}) throws File\+Not\+Found\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+constructor in care mai intai se calculeaza numarul de elemente de orice fel si apoi se creeaza limitele de coliziune pentru fiecare 
+
+\mbox{\hyperlink{class_paoo_game_1_1_map_a5d7900d83741560c9b71ad71c0bbe0e0}{Map(int level)}} se selecteaza fisierul in care este reprezentata harta nivelului curent
+
+se incepe citirea fisierului (a matricei) care poate avea un numar aleatoriu de linii si coloane
+
+se calculeaza numarul de obiecte si entitati de fiecare fel pentru a sti marimile vectorilor
+
+este calculata lungimea si latimea matricei
+
+sunt creati vectorii de obiecte si entitati de lungimi citite mai sus care sunt utili functiei collision
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_map_a9807fc578c971c7ffadc9d716f3ae9b5}\label{class_paoo_game_1_1_map_a9807fc578c971c7ffadc9d716f3ae9b5}} 
+\index{PaooGame.Map@{PaooGame.Map}!CreateMap@{CreateMap}}
+\index{CreateMap@{CreateMap}!PaooGame.Map@{PaooGame.Map}}
+\doxysubsubsection{\texorpdfstring{CreateMap()}{CreateMap()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+Map.\+Create\+Map (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+functie care deseneaza harta si entitatile 
+
+void \mbox{\hyperlink{class_paoo_game_1_1_map_a9807fc578c971c7ffadc9d716f3ae9b5}{Create\+Map(\+Graphics g)}} este calculata pozitia la care se afla blocurile si obiecte in functie de valoarea initiala din matrice si pozitia playerului
+
+in functie id-\/urile din matrice , sunt instantiate obiectele si desenate la pozitiile calculate mai sus
+
+aici este realizata desenarea vectorilor de blocuri si jumatati de blocuri
+
+desenarea inimilor care reprezinta viata playerului
+
+desenarea textului care spune numarul monezilor ramase\mbox{\Hypertarget{class_paoo_game_1_1_map_a009f4c88b199b616c0a0b5b66f225220}\label{class_paoo_game_1_1_map_a009f4c88b199b616c0a0b5b66f225220}} 
+\index{PaooGame.Map@{PaooGame.Map}!Update@{Update}}
+\index{Update@{Update}!PaooGame.Map@{PaooGame.Map}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+Map.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+functie care realizeaza modificarea pozitiei elementelor , blocarea iesirii de pe ecran si miscarea camerei 
+
+void \mbox{\hyperlink{class_paoo_game_1_1_map_a009f4c88b199b616c0a0b5b66f225220}{Update()}} se calculeaza care sunt blocurile cele mai din dreapta si blocurile cele mai din stanga
+
+miscarea hartii se opreste cand nu mai exista blocuri mai in stanga sau mai in dreapta
+
+atunci cand playerul se apropie de coltul ecranului , se mentine pozitia lui relativa la ecran
+
+cand playerul ajunge la limita de sus respectiv jos se opreste miscarea lui relativa fata de ecran
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/Map.\+java\end{DoxyCompactItemize}

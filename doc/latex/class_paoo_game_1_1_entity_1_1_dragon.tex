@@ -1,0 +1,143 @@
+\hypertarget{class_paoo_game_1_1_entity_1_1_dragon}{}\doxysection{Paoo\+Game.\+Entity.\+Dragon Class Reference}
+\label{class_paoo_game_1_1_entity_1_1_dragon}\index{PaooGame.Entity.Dragon@{PaooGame.Entity.Dragon}}
+
+
+Abstractizeaza notiunea de entitate de tip dragon.  
+
+
+Inheritance diagram for Paoo\+Game.\+Entity.\+Dragon\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_paoo_game_1_1_entity_1_1_dragon}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_dragon_ab8b33d1e8da9825249f2ff80efe38666}\label{class_paoo_game_1_1_entity_1_1_dragon_ab8b33d1e8da9825249f2ff80efe38666}} 
+{\bfseries Dragon} (int \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_entity_a62f4ba83bb9bfecc28ac8cdf04545856}{id}}, int x, int y)
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_dragon_a03942bd4229b2d2aa1504e13dfbba4d1}{Draw}} (Graphics g, int x, int y)
+\begin{DoxyCompactList}\small\item\em Deseneaza in fereastra entitatea. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_dragon_a7fdc9a6c1e0b9d3addfb7f3c4cd1a942}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizeaza proprietatile entitatii. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_dragon_ad6dddbed90f4b2886ae413668080e59d}\label{class_paoo_game_1_1_entity_1_1_dragon_ad6dddbed90f4b2886ae413668080e59d}} 
+boolean \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_dragon_ad6dddbed90f4b2886ae413668080e59d}{start}} =true
+\begin{DoxyCompactList}\small\item\em atribut folosit pozitionarea initiala pe harta \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_dragon_aec2f731a4c971aacf3a2175f8073cbfd}{Movement}} ()
+\begin{DoxyCompactList}\small\item\em realizeaza miscarea mobului . \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_dragon_a568fbb645785c8b40c1b93eea7a0952a}{Collision}} ()
+\begin{DoxyCompactList}\small\item\em realizeaza coliziunea mobului cu peretii . \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_dragon_a3741977bb59025310309eee67145dd64}{atac}} ()
+\begin{DoxyCompactList}\small\item\em realizeaza actiunea de atac . \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_dragon_ac26f12ce94651ea881d52a4e6554eaca}\label{class_paoo_game_1_1_entity_1_1_dragon_ac26f12ce94651ea881d52a4e6554eaca}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_dragon_ac26f12ce94651ea881d52a4e6554eaca}{VelX}}
+\begin{DoxyCompactList}\small\item\em atribut folosit miscarea pe axa X \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_dragon_a87b7ffde9913aa2bb22c8895410bcc85}\label{class_paoo_game_1_1_entity_1_1_dragon_a87b7ffde9913aa2bb22c8895410bcc85}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_dragon_a87b7ffde9913aa2bb22c8895410bcc85}{frame}} =4
+\begin{DoxyCompactList}\small\item\em atribut folosit selectarea pozei \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_dragon_ae452c43466c09303fe2bd71218183bf3}\label{class_paoo_game_1_1_entity_1_1_dragon_ae452c43466c09303fe2bd71218183bf3}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_dragon_ae452c43466c09303fe2bd71218183bf3}{frame\+Delay}} =0
+\begin{DoxyCompactList}\small\item\em atribut folosit pentru timerul trecerii de la o poza la alta \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_dragon_abfb988e00d9657f6ea251b18c16c367c}\label{class_paoo_game_1_1_entity_1_1_dragon_abfb988e00d9657f6ea251b18c16c367c}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_dragon_abfb988e00d9657f6ea251b18c16c367c}{attack}} =0
+\begin{DoxyCompactList}\small\item\em atribut folosit pentru actiunea de atac \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_dragon_a3c8161e7dd7f4382991e2215161ea530}\label{class_paoo_game_1_1_entity_1_1_dragon_a3c8161e7dd7f4382991e2215161ea530}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_dragon_a3c8161e7dd7f4382991e2215161ea530}{hit}} =0
+\begin{DoxyCompactList}\small\item\em atribut folosit pentru actiunea de atingere \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Abstractizeaza notiunea de entitate de tip dragon. 
+
+class \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_dragon}{Dragon}} extends \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_entity}{Entity}} 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_dragon_a3741977bb59025310309eee67145dd64}\label{class_paoo_game_1_1_entity_1_1_dragon_a3741977bb59025310309eee67145dd64}} 
+\index{PaooGame.Entity.Dragon@{PaooGame.Entity.Dragon}!atac@{atac}}
+\index{atac@{atac}!PaooGame.Entity.Dragon@{PaooGame.Entity.Dragon}}
+\doxysubsubsection{\texorpdfstring{atac()}{atac()}}
+{\footnotesize\ttfamily private void Paoo\+Game.\+Entity.\+Dragon.\+atac (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+realizeaza actiunea de atac . 
+
+timerul pt atac creste si dupa o perioada de aprox secunda incepe animatia de atac
+
+se verifica daca playerul se afla in perimetrul dragonului pt a incepe atacul\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_dragon_a568fbb645785c8b40c1b93eea7a0952a}\label{class_paoo_game_1_1_entity_1_1_dragon_a568fbb645785c8b40c1b93eea7a0952a}} 
+\index{PaooGame.Entity.Dragon@{PaooGame.Entity.Dragon}!Collision@{Collision}}
+\index{Collision@{Collision}!PaooGame.Entity.Dragon@{PaooGame.Entity.Dragon}}
+\doxysubsubsection{\texorpdfstring{Collision()}{Collision()}}
+{\footnotesize\ttfamily private void Paoo\+Game.\+Entity.\+Dragon.\+Collision (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+realizeaza coliziunea mobului cu peretii . 
+
+se verifica daca mobul se afla in aer si se intoarce pt a nu cadea\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_dragon_a03942bd4229b2d2aa1504e13dfbba4d1}\label{class_paoo_game_1_1_entity_1_1_dragon_a03942bd4229b2d2aa1504e13dfbba4d1}} 
+\index{PaooGame.Entity.Dragon@{PaooGame.Entity.Dragon}!Draw@{Draw}}
+\index{Draw@{Draw}!PaooGame.Entity.Dragon@{PaooGame.Entity.Dragon}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+Entity.\+Dragon.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Deseneaza in fereastra entitatea. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic in care sa se realizeze desenarea \\
+\hline
+{\em x} & Coordonata x in cadrul ferestrei unde sa fie desenata entitatea \\
+\hline
+{\em y} & Coordonata y in cadrul ferestrei unde sa fie desenata entitatea \\
+\hline
+\end{DoxyParams}
+daca entitatea inca nu este desenat se va desena la pozitia din harta, altfel este desenat in functie de valorile EntityX si EntityY
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_entity_ae1da9deb9cc43fc4927273e794d29bb5}{Paoo\+Game.\+Entity.\+Entity}}.
+
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_dragon_aec2f731a4c971aacf3a2175f8073cbfd}\label{class_paoo_game_1_1_entity_1_1_dragon_aec2f731a4c971aacf3a2175f8073cbfd}} 
+\index{PaooGame.Entity.Dragon@{PaooGame.Entity.Dragon}!Movement@{Movement}}
+\index{Movement@{Movement}!PaooGame.Entity.Dragon@{PaooGame.Entity.Dragon}}
+\doxysubsubsection{\texorpdfstring{Movement()}{Movement()}}
+{\footnotesize\ttfamily private void Paoo\+Game.\+Entity.\+Dragon.\+Movement (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+realizeaza miscarea mobului . 
+
+aceste verificari ajuta la modificarea vitezei mobului in cazul miscarii hartii care la randul ei este determinata de miscarea playerului adica de apasarea tastelor wasd\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_dragon_a7fdc9a6c1e0b9d3addfb7f3c4cd1a942}\label{class_paoo_game_1_1_entity_1_1_dragon_a7fdc9a6c1e0b9d3addfb7f3c4cd1a942}} 
+\index{PaooGame.Entity.Dragon@{PaooGame.Entity.Dragon}!Update@{Update}}
+\index{Update@{Update}!PaooGame.Entity.Dragon@{PaooGame.Entity.Dragon}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+Entity.\+Dragon.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Actualizeaza proprietatile entitatii. 
+
+se scurge timpul de invulnerabilitate
+
+se verifica daca dragonul poate ataca
+
+animatie de atac
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_entity_a294e0c53fe7895e97f3176e29f2dfa6c}{Paoo\+Game.\+Entity.\+Entity}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+Entity/Dragon.\+java\end{DoxyCompactItemize}

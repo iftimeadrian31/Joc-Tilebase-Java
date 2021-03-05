@@ -1,0 +1,119 @@
+\hypertarget{class_paoo_game_1_1_entity_1_1_dummy}{}\doxysection{Paoo\+Game.\+Entity.\+Dummy Class Reference}
+\label{class_paoo_game_1_1_entity_1_1_dummy}\index{PaooGame.Entity.Dummy@{PaooGame.Entity.Dummy}}
+
+
+Abstractizeaza notiunea de entitate de tip dummy.  
+
+
+Inheritance diagram for Paoo\+Game.\+Entity.\+Dummy\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_paoo_game_1_1_entity_1_1_dummy}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_dummy_a7e1ee55436e72afe963e9529acd1f133}\label{class_paoo_game_1_1_entity_1_1_dummy_a7e1ee55436e72afe963e9529acd1f133}} 
+{\bfseries Dummy} (int \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_entity_a62f4ba83bb9bfecc28ac8cdf04545856}{id}}, int x, int y)
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_dummy_a7bc9f1346ecc90f718e2ed15f6e23ebe}{Draw}} (Graphics g, int x, int y)
+\begin{DoxyCompactList}\small\item\em Deseneaza in fereastra entitatea. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_dummy_a1e8846e17f9b43b0c51b0a4b919eb4e7}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizeaza proprietatile entitatii. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_dummy_a01e96f4d864f766ebb20e40651418bcd}\label{class_paoo_game_1_1_entity_1_1_dummy_a01e96f4d864f766ebb20e40651418bcd}} 
+boolean \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_dummy_a01e96f4d864f766ebb20e40651418bcd}{start}} =true
+\begin{DoxyCompactList}\small\item\em atribut folosit pozitionarea initiala pe harta \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_dummy_a25f1a5c2dfc30f414b76cceead827b90}{Movement}} ()
+\begin{DoxyCompactList}\small\item\em realizeaza miscarea mobului . \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_dummy_adb12bab381fa8a12e3c9c32a4fac5950}{Collision}} ()
+\begin{DoxyCompactList}\small\item\em realizeaza coliziunea mobului cu peretii . \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_dummy_a494176282da1ea5a6053a31ec8a1b750}\label{class_paoo_game_1_1_entity_1_1_dummy_a494176282da1ea5a6053a31ec8a1b750}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_dummy_a494176282da1ea5a6053a31ec8a1b750}{VelX}}
+\begin{DoxyCompactList}\small\item\em atribut folosit miscarea pe axa X \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_dummy_a7d7e0c9d792031016b47de27dc65d2a3}\label{class_paoo_game_1_1_entity_1_1_dummy_a7d7e0c9d792031016b47de27dc65d2a3}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_dummy_a7d7e0c9d792031016b47de27dc65d2a3}{frame}} =0
+\begin{DoxyCompactList}\small\item\em atribut folosit selectarea pozei \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_dummy_a9a40fc40a5e90cf9c371bf1c95950d8d}\label{class_paoo_game_1_1_entity_1_1_dummy_a9a40fc40a5e90cf9c371bf1c95950d8d}} 
+int \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_dummy_a9a40fc40a5e90cf9c371bf1c95950d8d}{frame\+Delay}} =0
+\begin{DoxyCompactList}\small\item\em atribut folosit pentru timerul trecerii de la o poza la alta \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Abstractizeaza notiunea de entitate de tip dummy. 
+
+class \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_dummy}{Dummy}} extends \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_entity}{Entity}} 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_dummy_adb12bab381fa8a12e3c9c32a4fac5950}\label{class_paoo_game_1_1_entity_1_1_dummy_adb12bab381fa8a12e3c9c32a4fac5950}} 
+\index{PaooGame.Entity.Dummy@{PaooGame.Entity.Dummy}!Collision@{Collision}}
+\index{Collision@{Collision}!PaooGame.Entity.Dummy@{PaooGame.Entity.Dummy}}
+\doxysubsubsection{\texorpdfstring{Collision()}{Collision()}}
+{\footnotesize\ttfamily private void Paoo\+Game.\+Entity.\+Dummy.\+Collision (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+realizeaza coliziunea mobului cu peretii . 
+
+se verifica daca mobul se afla in aer si se intoarce pt a nu cadea\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_dummy_a7bc9f1346ecc90f718e2ed15f6e23ebe}\label{class_paoo_game_1_1_entity_1_1_dummy_a7bc9f1346ecc90f718e2ed15f6e23ebe}} 
+\index{PaooGame.Entity.Dummy@{PaooGame.Entity.Dummy}!Draw@{Draw}}
+\index{Draw@{Draw}!PaooGame.Entity.Dummy@{PaooGame.Entity.Dummy}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+Entity.\+Dummy.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Deseneaza in fereastra entitatea. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic in care sa se realizeze desenarea \\
+\hline
+{\em x} & Coordonata x in cadrul ferestrei unde sa fie desenata entitatea \\
+\hline
+{\em y} & Coordonata y in cadrul ferestrei unde sa fie desenata entitatea \\
+\hline
+\end{DoxyParams}
+daca entitatea inca nu este desenat se va desena la pozitia din harta, altfel este desenat in functie de valorile EntityX si EntityY
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_entity_ae1da9deb9cc43fc4927273e794d29bb5}{Paoo\+Game.\+Entity.\+Entity}}.
+
+\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_dummy_a25f1a5c2dfc30f414b76cceead827b90}\label{class_paoo_game_1_1_entity_1_1_dummy_a25f1a5c2dfc30f414b76cceead827b90}} 
+\index{PaooGame.Entity.Dummy@{PaooGame.Entity.Dummy}!Movement@{Movement}}
+\index{Movement@{Movement}!PaooGame.Entity.Dummy@{PaooGame.Entity.Dummy}}
+\doxysubsubsection{\texorpdfstring{Movement()}{Movement()}}
+{\footnotesize\ttfamily private void Paoo\+Game.\+Entity.\+Dummy.\+Movement (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+realizeaza miscarea mobului . 
+
+aceste verificari ajuta la modificarea vitezei mobului in cazul miscarii hartii care la randul ei este determinata de miscarea playerului adica de apasarea tastelor wasd\mbox{\Hypertarget{class_paoo_game_1_1_entity_1_1_dummy_a1e8846e17f9b43b0c51b0a4b919eb4e7}\label{class_paoo_game_1_1_entity_1_1_dummy_a1e8846e17f9b43b0c51b0a4b919eb4e7}} 
+\index{PaooGame.Entity.Dummy@{PaooGame.Entity.Dummy}!Update@{Update}}
+\index{Update@{Update}!PaooGame.Entity.Dummy@{PaooGame.Entity.Dummy}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+Entity.\+Dummy.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Actualizeaza proprietatile entitatii. 
+
+se scurge timpul de invulnerabilitate
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_entity_1_1_entity_a294e0c53fe7895e97f3176e29f2dfa6c}{Paoo\+Game.\+Entity.\+Entity}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+Entity/Dummy.\+java\end{DoxyCompactItemize}
